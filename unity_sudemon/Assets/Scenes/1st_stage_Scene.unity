@@ -98,7 +98,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 7e4111021bbec424d8bd7941264fed24,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -3846,8 +3847,8 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
+  m_Range: 5.88
+  m_SpotAngle: 74.2
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -9554,6 +9555,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: bulb (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 43abf9811dbaa9a46ab4f7b75e019e58,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 43abf9811dbaa9a46ab4f7b75e019e58,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43abf9811dbaa9a46ab4f7b75e019e58, type: 3}
 --- !u!4 &1613507333 stripped
@@ -10218,6 +10229,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 1st_floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 12e852a85a0e6ef47aa6fa1723d1ed1d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12e852a85a0e6ef47aa6fa1723d1ed1d, type: 3}
@@ -11858,7 +11874,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.23
-  m_Range: 3.72
+  m_Range: 3.26
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
