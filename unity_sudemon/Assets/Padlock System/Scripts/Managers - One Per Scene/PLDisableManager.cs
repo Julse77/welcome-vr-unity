@@ -8,7 +8,7 @@ namespace PadlockSystem
     {
         public static PLDisableManager instance;
 
-        [SerializeField] private FirstPersonController player;
+        [SerializeField] private OVRPlayerController player;
         [SerializeField] private Image crosshair; 
 
         void Awake()

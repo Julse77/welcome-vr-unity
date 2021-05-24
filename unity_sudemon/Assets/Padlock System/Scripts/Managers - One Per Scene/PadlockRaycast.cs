@@ -1,5 +1,8 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
+
 
 namespace PadlockSystem
 {
@@ -17,6 +20,7 @@ namespace PadlockSystem
         private bool doOnce;
 
         private const string padlockTag = "Padlock";
+
 
         void Update()
         {
@@ -38,7 +42,7 @@ namespace PadlockSystem
                         isCrosshairActive = true;
                         doOnce = true;
 
-                        if (Input.GetKeyDown(PLInputManager.instance.interactKey))
+                        if (OVRInput.Get(OVRInput.Button.One))
                         {
                             rayCastedObj.ShowKeypad();
                         }

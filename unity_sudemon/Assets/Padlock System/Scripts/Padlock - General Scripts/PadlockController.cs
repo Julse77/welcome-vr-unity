@@ -116,7 +116,8 @@ namespace PadlockSystem
         {
             if (isShowing)
             {
-                if (Input.GetKeyDown(PLInputManager.instance.closeKey))
+                // 컨트롤러 B버튼 누르면 꺼짐
+                if (OVRInput.Get(OVRInput.Button.Two))
                 {
                     Disable();
                 }
