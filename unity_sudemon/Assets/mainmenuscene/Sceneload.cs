@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class Sceneload : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void GOmain()
+    public void GOintro()
     {
-        SceneManager.LoadScene("mainmenu");
+        SceneManager.LoadScene("intro");
     }
 
     public void Gamestart()
