@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Padlock
   - row1
+  - Padlock_Cam
   layers:
   - Default
   - TransparentFX

@@ -24,40 +24,13 @@ namespace PadlockSystem
             spinnerLimit = 9;
         }
 
-        void Spin()
+        public void Spin()
         {
             transform.Rotate(0, 0, transform.rotation.z + 40);
             _padlockController.SpinSound();
             Rotate();
         }
-
-        /*
-        void Update()
-        {
-
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, 1.0f))
-            {
-                if (hit.collider.gameObject.CompareTag("row1"))
-                {
-                    if (OVRInput.Get(OVRInput.Button.SecondaryThumbstickRight))
-                    {
-                        Debug.Log("111111111");
-                        SpinnerScript spinnerScript = hit.collider.GetComponent<SpinnerScript>();
-                        if (spinnerScript != null)
-                        {
-                            spinnerScript.Spin();
-                            Debug.Log("22222222");
-                        }
-                        Debug.Log("33333333");
-                    }
-                }
-                
-            }*/
         
-
-
         /*
         void OnMouseDown()
         {

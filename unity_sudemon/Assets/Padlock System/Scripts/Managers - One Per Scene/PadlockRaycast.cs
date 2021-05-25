@@ -8,6 +8,8 @@ namespace PadlockSystem
 {
     public class PadlockRaycast : MonoBehaviour
     {
+        private SpinnerScript spinnerScript;
+
         [Header("Raycast References")]
         [SerializeField] private int rayLength = 5;
         [SerializeField] private LayerMask layerMaskInteract;
@@ -20,6 +22,8 @@ namespace PadlockSystem
         private bool doOnce;
 
         private const string padlockTag = "Padlock";
+        private const string padlockCam = "Padlock_Cam";
+        private const string row1 = "row1";
 
 
         void Update()
@@ -47,6 +51,21 @@ namespace PadlockSystem
                             rayCastedObj.ShowKeypad();
                         }
                     }
+
+                    if (hit.collider.CompareTag(padlockCam))
+                    {
+                        if (hit.collider.CompareTag(row1))
+                        {
+                            if (OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
+                            {
+                                Debug.Log("돌아라 제발");
+                                spinnerScript.Spin();
+                            }
+                        }
+                    }
+                    
+
+
                 }
                 else
                 {
