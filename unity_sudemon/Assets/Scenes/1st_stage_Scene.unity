@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0040203943, g: 0.00021946261, b: 0.00000005338187,
+  m_IndirectSpecularColor: {r: 0.0040203924, g: 0.0002194626, b: 0.00000005338187,
     a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -379,15 +379,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.432
+      value: -11.1
       objectReference: {fileID: 0}
     - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.242
+      value: 1.771
       objectReference: {fileID: 0}
     - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.286
+      value: 16.847
       objectReference: {fileID: 0}
     - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4035,6 +4035,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrosshairCanvas_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 114277621250489584, guid: 5cebf6c4a6f75d24d964647ff6d8ea1c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114458837303870974, guid: 5cebf6c4a6f75d24d964647ff6d8ea1c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 223452032331618482, guid: 5cebf6c4a6f75d24d964647ff6d8ea1c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 224316589762207344, guid: 5cebf6c4a6f75d24d964647ff6d8ea1c,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4589,7 +4604,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -9866,6 +9881,68 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1362032484}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1364375870
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1009018564446034, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_Name
+      value: Padlock_Interactable_A1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.844
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.242
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.869
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114721203980000832, guid: df914dd955253454aa5410fad0c87478,
+        type: 3}
+      propertyPath: _padlockController
+      value: 
+      objectReference: {fileID: 788668523}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df914dd955253454aa5410fad0c87478, type: 3}
 --- !u!1001 &1368383600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14512,7 +14589,9 @@ GameObject:
   - component: {fileID: 1043597973380455816}
   - component: {fileID: 7934130778851475232}
   - component: {fileID: 5270194235244605223}
+  - component: {fileID: 1864573454620209153}
   - component: {fileID: 5243566847404182147}
+  - component: {fileID: 1864573454620209154}
   m_Layer: 0
   m_Name: rightwindow
   m_TagString: Untagged
@@ -14520,6 +14599,41 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!111 &1864573454620209153
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864573454620209152}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!95 &1864573454620209154
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864573454620209152}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05c4f942af0781746af8a05c0ded70a4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2138939715614520259
 GameObject:
   m_ObjectHideFlags: 0
@@ -14645,7 +14759,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3449818125183811806}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.056512143, y: 1.4170899, z: 2.9050221}
+  m_LocalPosition: {x: 0.056512143, y: 1.417, z: 2.9050221}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 543450652558402211}
@@ -15131,9 +15245,9 @@ GameObject:
   - component: {fileID: 6847452001247734444}
   - component: {fileID: 2757946847399177993}
   - component: {fileID: 8229119090349500840}
-  - component: {fileID: 8229119090349500839}
   - component: {fileID: 8229119090349500838}
-  m_Layer: 0
+  - component: {fileID: 8229119090349500839}
+  m_Layer: 8
   m_Name: Rusty_Nail 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15157,9 +15271,9 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
-  m_materialColorField: 
---- !u!136 &8229119090349500839
-CapsuleCollider:
+  m_materialColorField: _OutlineColor
+--- !u!65 &8229119090349500839
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -15168,9 +15282,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.025379967
-  m_Height: 0.007867496
-  m_Direction: 1
+  serializedVersion: 2
+  m_Size: {x: 0.007831464, y: 0.007867496, z: 0.050759934}
   m_Center: {x: -0.00000023841858, y: -0.000000007450581, z: 0.000000009313225}
 --- !u!54 &8229119090349500840
 Rigidbody:
