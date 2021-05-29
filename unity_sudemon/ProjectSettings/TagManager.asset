@@ -5,8 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Padlock
-  - row1
   - Padlock_Cam
+  - Row1
+  - Row2
+  - Row3
+  - Row4
   layers:
   - Default
   - TransparentFX
