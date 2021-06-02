@@ -11,6 +11,9 @@ TagManager:
   - Row3
   - Row4
   - door
+  - Q1
+  - doorframe2
+  - doorframe3
   layers:
   - Default
   - TransparentFX
