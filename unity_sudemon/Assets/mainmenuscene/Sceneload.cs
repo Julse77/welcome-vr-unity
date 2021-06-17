@@ -20,5 +20,9 @@ public class Sceneload : MonoBehaviour
     {
         Application.Quit();
     }
-    
+    public void tutorialstart()
+    {
+        SceneManager.LoadScene("tutorial");
+    }
+
 }
