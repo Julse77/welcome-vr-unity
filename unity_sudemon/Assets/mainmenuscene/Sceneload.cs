@@ -10,6 +10,10 @@ public class Sceneload : MonoBehaviour
     {
         SceneManager.LoadScene("intro");
     }
+    public void GOmainmenu()
+    {
+        SceneManager.LoadScene("mainmenu");
+    }
 
     public void Gamestart()
     {
