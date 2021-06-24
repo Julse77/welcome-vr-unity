@@ -238,27 +238,27 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ca8747aad2548ac4589d7156eafea6d6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6532815
+      value: 0.000936094
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8747aad2548ac4589d7156eafea6d6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6532815
+      value: 0.000936043
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8747aad2548ac4589d7156eafea6d6,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.27059805
+      value: 0.70710623
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8747aad2548ac4589d7156eafea6d6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.27059802
+      value: -0.7071062
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8747aad2548ac4589d7156eafea6d6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90.00001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8747aad2548ac4589d7156eafea6d6,
         type: 3}
@@ -268,7 +268,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ca8747aad2548ac4589d7156eafea6d6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -45
+      value: -179.848
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: ca8747aad2548ac4589d7156eafea6d6,
         type: 3}
@@ -5423,6 +5423,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 14908429}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &732498362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732498361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c34ee971f16608409c030e35814951d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &732498365
 Animator:
   serializedVersion: 3
