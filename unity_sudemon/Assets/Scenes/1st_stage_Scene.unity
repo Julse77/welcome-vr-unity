@@ -13243,6 +13243,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1715918522}
     m_Modifications:
+    - target: {fileID: -9097205655881648391, guid: cc39d31e256a410459caf7782db22892,
+        type: 3}
+      propertyPath: m_Name
+      value: paetong_out
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cc39d31e256a410459caf7782db22892,
         type: 3}
       propertyPath: m_RootOrder
@@ -13312,6 +13317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 8.915
+      objectReference: {fileID: 0}
+    - target: {fileID: 2746184130346762842, guid: cc39d31e256a410459caf7782db22892,
+        type: 3}
+      propertyPath: m_Name
+      value: paetong_in
       objectReference: {fileID: 0}
     - target: {fileID: 7880465940736808371, guid: cc39d31e256a410459caf7782db22892,
         type: 3}
@@ -13386,6 +13396,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1721045006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721045003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3873485871ebd954aaf903d065845942, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1723653117
 GameObject:
   m_ObjectHideFlags: 0
