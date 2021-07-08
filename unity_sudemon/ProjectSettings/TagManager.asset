@@ -15,6 +15,7 @@ TagManager:
   - doorframe2
   - doorframe3
   - paetong
+  - male
   layers:
   - Default
   - TransparentFX

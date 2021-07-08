@@ -7,9 +7,7 @@ public class raycastingRightHand : MonoBehaviour
     public GameObject RightH;
     public GameObject particle;
     public GameObject particle2;
-    public GameObject firstroomParticle;
-    public GameObject doorframeParticle;
-    public GameObject doorframeParticle2;
+
     public GameObject paetongbutton;
     // Start is called before the first frame update
     void Start()
@@ -33,18 +31,7 @@ public class raycastingRightHand : MonoBehaviour
                 particle.SetActive(true);
                 particle2.SetActive(true);
             }
-            else if(hit.transform.tag=="Q1")
-            {
-                firstroomParticle.SetActive(true);
-            }
-            else if (hit.transform.tag == "doorframe2")
-            {
-                doorframeParticle.SetActive(true);
-            }
-            else if (hit.transform.tag == "doorframe3")
-            {
-                doorframeParticle2.SetActive(true);
-            }
+
             else if (hit.transform.tag == "paetong")
             {
                 paetongbutton.SetActive(true);
@@ -53,9 +40,7 @@ public class raycastingRightHand : MonoBehaviour
             {
                 particle.SetActive(false);
                 particle2.SetActive(false);
-                firstroomParticle.SetActive(false);
-                doorframeParticle.SetActive(false);
-                doorframeParticle2.SetActive(false);
+
                 paetongbutton.SetActive(false);
             }
         }
