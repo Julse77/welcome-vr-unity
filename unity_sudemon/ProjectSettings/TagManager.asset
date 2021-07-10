@@ -16,6 +16,7 @@ TagManager:
   - doorframe3
   - paetong
   - male
+  - windowOpen_1st
   layers:
   - Default
   - TransparentFX
