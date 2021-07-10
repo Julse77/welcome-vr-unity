@@ -17,6 +17,7 @@ TagManager:
   - paetong
   - male
   - windowOpen_1st
+  - paetongButton
   layers:
   - Default
   - TransparentFX
