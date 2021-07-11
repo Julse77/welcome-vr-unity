@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad62bf48225c118458d285cf766ddfd7
+guid: 594cd11acd5c4674d82cc3b6c2ac588f
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,12 +7,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: room1
+      name: 10 - Default
+    second: {fileID: 2100000, guid: 8b524f70ab2112d4498673aec7571d3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11 - Default
     second: {fileID: 2100000, guid: 1be6f6f4723813a4fb6af8a078701573, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: room2
+      name: woood
     second: {fileID: 2100000, guid: 56a999ce4a85ccc4481c3e725d0c8e1d, type: 2}
   materials:
     materialImportMode: 1
