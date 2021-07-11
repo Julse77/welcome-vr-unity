@@ -2022,6 +2022,38 @@ MonoBehaviour:
   row3: {fileID: 1362032488}
   row4: {fileID: 1362032487}
   RayDistance: 15
+--- !u!1 &262924624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1660603843503870, guid: ce816f2e6abb0504092c23ed9b970dfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 262924614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &262924625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262924622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77177809c4c15d41b936700ac472887, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RayDistance: 30
+--- !u!114 &262924626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262924624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77177809c4c15d41b936700ac472887, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RayDistance: 30
 --- !u!1 &271162631
 GameObject:
   m_ObjectHideFlags: 0
@@ -10816,18 +10848,6 @@ MonoBehaviour:
   HeightOffset: 0
   MinimumHeight: 0
   MaximumHeight: 0
---- !u!114 &1233953881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233953879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d77177809c4c15d41b936700ac472887, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &1233953884
 Rigidbody:
   m_ObjectHideFlags: 0

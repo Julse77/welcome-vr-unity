@@ -5,7 +5,7 @@ using UnityEngine;
 public class raycastObjectControl : MonoBehaviour
 {
     private RaycastHit hit;
-    private float RayDistance = 30f;
+    public float RayDistance = 30f;
 
     private windowOpen_1st PlayAnimation;
 
