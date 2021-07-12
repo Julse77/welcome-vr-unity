@@ -5,7 +5,7 @@ using UnityEngine;
 public class windowOpen_1st : MonoBehaviour
 {
     private Animator anim;
-
+    public GameObject room2WindowAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +16,7 @@ public class windowOpen_1st : MonoBehaviour
         if (null != anim)
         {
             anim.Play("1st_openWindow", 0, 0.0f);
+            room2WindowAudio.SetActive(true);
         }
     }
 }

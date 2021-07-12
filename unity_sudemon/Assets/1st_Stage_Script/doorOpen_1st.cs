@@ -5,7 +5,7 @@ using UnityEngine;
 public class doorOpen_1st : MonoBehaviour
 {
     private Animator anim;
-
+    public GameObject room2DoorAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +16,7 @@ public class doorOpen_1st : MonoBehaviour
         if (null != anim)
         {
             anim.Play("1st_openFirstDoor", 0, 0.0f);
+            room2DoorAudio.SetActive(true);
         }
     }
 }
