@@ -6,6 +6,8 @@ public class manLookPlayer : MonoBehaviour
 {
     // player 위치 변수
     public Transform player;
+    private Vector3 playerPosition;
+    
 
 
     // Start is called before the first frame update
@@ -17,6 +19,7 @@ public class manLookPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.LookAt(player);
+        playerPosition = new Vector3(player.position.x, player.position.y, player.position.z);
+        transform.LookAt(playerPosition);
     }
 }
