@@ -18,6 +18,7 @@ TagManager:
   - male
   - windowOpen_1st
   - paetongButton
+  - PlayerHand
   layers:
   - Default
   - TransparentFX
