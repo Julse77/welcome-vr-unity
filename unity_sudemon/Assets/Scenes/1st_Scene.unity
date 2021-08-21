@@ -61849,22 +61849,22 @@ PrefabInstance:
         type: 3}
       propertyPath: _padlockController
       value: 
-      objectReference: {fileID: 231438693}
+      objectReference: {fileID: 166807036}
     - target: {fileID: 114126863898337988, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806,
         type: 3}
       propertyPath: _padlockController
       value: 
-      objectReference: {fileID: 231438693}
+      objectReference: {fileID: 166807036}
     - target: {fileID: 114613903723300450, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806,
         type: 3}
       propertyPath: _padlockController
       value: 
-      objectReference: {fileID: 231438693}
+      objectReference: {fileID: 166807036}
     - target: {fileID: 114724230320551558, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806,
         type: 3}
       propertyPath: _padlockController
       value: 
-      objectReference: {fileID: 231438693}
+      objectReference: {fileID: 166807036}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806, type: 3}
 --- !u!4 &824584619 stripped
@@ -72409,8 +72409,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.29421845, y: 0.15679352, z: 0.33924848}
-  m_Center: {x: 0.0069855824, y: 0.0771724, z: 3.1839874}
+  m_Size: {x: 0.29421845, y: 0.1797629, z: 0.36253628}
+  m_Center: {x: 0.006985263, y: 0.0973338, z: 3.1809}
 --- !u!114 &1429985420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83465,22 +83465,22 @@ PrefabInstance:
         type: 3}
       propertyPath: _padlockController
       value: 
-      objectReference: {fileID: 231438693}
+      objectReference: {fileID: 1792064286}
     - target: {fileID: 114126863898337988, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806,
         type: 3}
       propertyPath: _padlockController
       value: 
-      objectReference: {fileID: 231438693}
+      objectReference: {fileID: 1792064286}
     - target: {fileID: 114613903723300450, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806,
         type: 3}
       propertyPath: _padlockController
       value: 
-      objectReference: {fileID: 231438693}
+      objectReference: {fileID: 1792064286}
     - target: {fileID: 114724230320551558, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806,
         type: 3}
       propertyPath: _padlockController
       value: 
-      objectReference: {fileID: 231438693}
+      objectReference: {fileID: 1792064286}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806, type: 3}
 --- !u!4 &1622715775 stripped
