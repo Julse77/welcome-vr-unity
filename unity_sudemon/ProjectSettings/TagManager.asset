@@ -19,6 +19,7 @@ TagManager:
   - windowOpen_1st
   - paetongButton
   - PlayerHand
+  - Nail
   layers:
   - Default
   - TransparentFX
