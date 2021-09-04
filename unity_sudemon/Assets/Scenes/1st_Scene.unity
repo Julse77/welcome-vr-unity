@@ -16095,7 +16095,7 @@ PrefabInstance:
         type: 3}
       propertyPath: interactableLock
       value: 
-      objectReference: {fileID: 1429985418}
+      objectReference: {fileID: 1524303428}
     - target: {fileID: 114035733896578918, guid: 723d23bdd038f124a8e81f7470daaa42,
         type: 3}
       propertyPath: unlock.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -72451,6 +72451,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1339235384}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1339235386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1009018564446034, guid: df914dd955253454aa5410fad0c87478,
+    type: 3}
+  m_PrefabInstance: {fileID: 1339235384}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1356498818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74438,6 +74444,12 @@ PrefabInstance:
       objectReference: {fileID: 166807036}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df914dd955253454aa5410fad0c87478, type: 3}
+--- !u!1 &1524303428 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1009018564446034, guid: df914dd955253454aa5410fad0c87478,
+    type: 3}
+  m_PrefabInstance: {fileID: 1524303427}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1525429670
 GameObject:
   m_ObjectHideFlags: 0
@@ -86676,7 +86688,7 @@ PrefabInstance:
         type: 3}
       propertyPath: interactableLock
       value: 
-      objectReference: {fileID: 1959516917}
+      objectReference: {fileID: 1339235386}
     - target: {fileID: 114035733896578918, guid: 723d23bdd038f124a8e81f7470daaa42,
         type: 3}
       propertyPath: unlock.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -93111,12 +93123,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &1959516917 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2eecb971ac6a4b14186327674056299e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1959516913}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1959516918
 MonoBehaviour:
   m_ObjectHideFlags: 0
