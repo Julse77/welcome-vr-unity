@@ -11,7 +11,7 @@ public class doorOpen_1st : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
-        public void PlayAnimation()
+    public void PlayAnimation()
     {
         if (null != anim)
         {
