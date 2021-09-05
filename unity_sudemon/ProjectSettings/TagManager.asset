@@ -20,6 +20,7 @@ TagManager:
   - paetongButton
   - PlayerHand
   - Nail
+  - Key
   layers:
   - Default
   - TransparentFX
