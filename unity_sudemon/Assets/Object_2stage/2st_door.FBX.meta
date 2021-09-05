@@ -3,7 +3,22 @@ guid: ac628bc4fff7eb54bbeb10f93a536c5f
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door
+    second: {fileID: 2100000, guid: 9d1a8ca93e012d742bd036e5ebc421e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door2
+    second: {fileID: 2100000, guid: 0f1bc3dcb98c7474e8c349b9b18f9d71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: son2
+    second: {fileID: 2100000, guid: 9130670df7941134daf0e80d1dd38675, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -45,7 +60,7 @@ ModelImporter:
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
