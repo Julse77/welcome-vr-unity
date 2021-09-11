@@ -5,15 +5,15 @@ using UnityEngine;
 public class stage2_boxopen : MonoBehaviour
 {
     private Animator anim;
-
+    public GameObject Object231;
 
     private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Key")
         {
-            //anim = this.paetong_in.GetComponent<Animator>();
-            //anim.Play("1st_contPaetong");
-            //키와 닿으면 상자열리는 애니메이션
+            anim = this.Object231.GetComponent<Animator>();
+            anim.Play("2st_openbox");
+            
         }
 
     }

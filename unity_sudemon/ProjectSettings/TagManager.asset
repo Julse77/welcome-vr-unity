@@ -21,6 +21,8 @@ TagManager:
   - PlayerHand
   - Nail
   - Key
+  - Key2
+  - Letter
   layers:
   - Default
   - TransparentFX
