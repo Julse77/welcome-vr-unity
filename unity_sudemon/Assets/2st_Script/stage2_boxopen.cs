@@ -2,19 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class stage2_boxopen : MonoBehaviour
+public class stage2_boxOpen : MonoBehaviour
 {
     private Animator anim;
-    public GameObject Object231;
 
-    private void OnTriggerStay(Collider other)
+    // Start is called before the first frame update
+    void Start()
     {
-        if (other.tag == "Key")
-        {
-            anim = this.Object231.GetComponent<Animator>();
-            anim.Play("2st_openbox");
-            
-        }
+        anim = GetComponent<Animator>();
+    }
 
+    // Update is called once per frame
+    public void PlayAnimation()
+    {
+        if (null != anim)
+        {
+            anim.Play("2st_openbox", 0, 0.0f);
+        }
     }
 }
