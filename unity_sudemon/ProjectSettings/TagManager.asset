@@ -23,6 +23,15 @@ TagManager:
   - Key
   - Key2
   - Letter
+  - Taegeukgi1
+  - Taegeukgi2
+  - Taegeukgi3
+  - Taegeukgi4
+  - Key3
+  - Taegeukgi1_1
+  - Taegeukgi2_1
+  - Taegeukgi3_1
+  - Taegeukgi4_1
   layers:
   - Default
   - TransparentFX

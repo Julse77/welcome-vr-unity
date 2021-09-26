@@ -5,6 +5,7 @@ using UnityEngine;
 public class stage2_doorOpen_1 : MonoBehaviour
 {
     private Animator anim;
+    public GameObject firstdooropensound;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,12 @@ public class stage2_doorOpen_1 : MonoBehaviour
         if (null != anim)
         {
             anim.Play("2st_openFirstDoor", 0, 0.0f);
+            firstdooropensound.SetActive(true);
+            Invoke("sounddeactivate", 5f);
         }
+    }
+    void sounddeactivate()
+    {
+        firstdooropensound.SetActive(false);
     }
 }
