@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 8ab0de8f6dde6644da22151bbabd13c7
+timeCreated: 1587628534
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Head
+    100002: HeadTop
+    100004: Hips
+    100006: LeftArm
+    100008: LeftFoot
+    100010: LeftForeArm
+    100012: LeftHand
+    100014: LeftHandIndex1
+    100016: LeftHandIndex2
+    100018: LeftHandIndex3
+    100020: LeftHandIndex4
+    100022: LeftLeg
+    100024: LeftShoulder
+    100026: LeftToe
+    100028: LeftToeBase
+    100030: LeftUpLeg
+    100032: Mannequins_female_body
+    100034: Mannequins_female_hand_left
+    100036: Mannequins_female_hand_right
+    100038: Mannequins_female_head
+    100040: Mannequins_female_legs
+    100042: //RootNode
+    100044: Neck
+    100046: RightArm
+    100048: RightFoot
+    100050: RightForeArm
+    100052: RightHand
+    100054: RightHandIndex1
+    100056: RightHandIndex2
+    100058: RightHandIndex3
+    100060: RightHandIndex4
+    100062: RightLeg
+    100064: RightShoulder
+    100066: RightToe
+    100068: RightToeBase
+    100070: RightUpLeg
+    100072: Spine
+    100074: Spine1
+    100076: Spine2
+    400000: Head
+    400002: HeadTop
+    400004: Hips
+    400006: LeftArm
+    400008: LeftFoot
+    400010: LeftForeArm
+    400012: LeftHand
+    400014: LeftHandIndex1
+    400016: LeftHandIndex2
+    400018: LeftHandIndex3
+    400020: LeftHandIndex4
+    400022: LeftLeg
+    400024: LeftShoulder
+    400026: LeftToe
+    400028: LeftToeBase
+    400030: LeftUpLeg
+    400032: Mannequins_female_body
+    400034: Mannequins_female_hand_left
+    400036: Mannequins_female_hand_right
+    400038: Mannequins_female_head
+    400040: Mannequins_female_legs
+    400042: //RootNode
+    400044: Neck
+    400046: RightArm
+    400048: RightFoot
+    400050: RightForeArm
+    400052: RightHand
+    400054: RightHandIndex1
+    400056: RightHandIndex2
+    400058: RightHandIndex3
+    400060: RightHandIndex4
+    400062: RightLeg
+    400064: RightShoulder
+    400066: RightToe
+    400068: RightToeBase
+    400070: RightUpLeg
+    400072: Spine
+    400074: Spine1
+    400076: Spine2
+    2100000: No Name
+    4300000: Mannequins_female_legs
+    4300002: Mannequins_female_head
+    4300004: Mannequins_female_hand_left
+    4300006: Mannequins_female_hand_right
+    4300008: Mannequins_female_body
+    9500000: //RootNode
+    13700000: Mannequins_female_body
+    13700002: Mannequins_female_hand_left
+    13700004: Mannequins_female_hand_right
+    13700006: Mannequins_female_head
+    13700008: Mannequins_female_legs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
