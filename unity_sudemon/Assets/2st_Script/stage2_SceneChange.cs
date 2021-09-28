@@ -10,6 +10,7 @@ public class stage2_SceneChange : MonoBehaviour
     {
         if (other.tag == "PlayerHand")
         {
+            image1.SetActive(true);
             Invoke("Scene3", 5f);
         }
 

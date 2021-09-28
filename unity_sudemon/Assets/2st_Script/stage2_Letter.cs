@@ -6,6 +6,7 @@ public class stage2_Letter : MonoBehaviour
 {
     public GameObject Key2;
     public GameObject Letter;
+    public GameObject KeySound;
 
     private void OnTriggerStay(Collider other)
     {
@@ -14,6 +15,7 @@ public class stage2_Letter : MonoBehaviour
 
             Key2.SetActive(true);
             Letter.SetActive(false);
+            KeySound.SetActive(true);
         }
 
     }
