@@ -12,6 +12,7 @@ public class Scenechange1 : MonoBehaviour
         {
             image1.SetActive(true);
             Invoke("Scene2", 5f);
+            
         }
 
     }
