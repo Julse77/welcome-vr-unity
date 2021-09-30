@@ -319,6 +319,20 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - Oculus
+  - m_BuildTarget: iPhone
+    m_Enabled: 1
+    m_Devices: []
+  - m_BuildTarget: Windows Store Apps
+    m_Enabled: 1
+    m_Devices:
+    - WindowsMR
+  - m_BuildTarget: PS4
+    m_Enabled: 1
+    m_Devices:
+    - PlayStationVR
+  - m_BuildTarget: tvOS
+    m_Enabled: 1
+    m_Devices: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
@@ -598,6 +612,7 @@ PlayerSettings:
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
+  suppressCommonWarnings: 1
   allowUnsafeCode: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
