@@ -5,22 +5,19 @@ using UnityEngine;
 public class stage2_doorOpen_3 : MonoBehaviour
 {
     private Animator anim;
-    public GameObject thirddooropensound;
+    public GameObject Object230;
+    public GameObject seconddoorsound;
 
     // Start is called before the first frame update
-    void Start()
+    private void OnTriggerStay(Collider other)
     {
-        anim = GetComponent<Animator>();
-    }
-
-    // Update is called once per frame
-    public void PlayAnimation()
-    {
-        if (null != anim)
+        if (other.tag == "Key3")
         {
-            anim.Play("2st_openLastDoor", 0, 0.0f);
-            thirddooropensound.SetActive(true);
-
+            anim = this.Object230.GetComponent<Animator>();
+            anim.Play("2st_openLastDoor");
+            seconddoorsound.SetActive(true);
         }
-    }
+
+
+}
 }

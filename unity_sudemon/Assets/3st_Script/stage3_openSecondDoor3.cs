@@ -5,6 +5,7 @@ using UnityEngine;
 public class stage3_openSecondDoor3 : MonoBehaviour
 {
     private Animator anim;
+    public GameObject openSound;
 
     void Start()
     {
@@ -16,6 +17,7 @@ public class stage3_openSecondDoor3 : MonoBehaviour
         if (null != anim)
         {
             anim.Play("3st_openSecondDoor3", 0, 0.0f);
+            openSound.SetActive(true);
         }
     }
 
