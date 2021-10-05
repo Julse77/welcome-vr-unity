@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-3.416139841079712,"y":2.082197427749634,"z":0.7960491180419922},"rotation":{"x":0.2582966089248657,"y":0.21091599762439729,"z":-0.0578969269990921,"w":0.9409846663475037},"size":16.060853958129884,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":9.786380767822266,"y":1.5198042392730713,"z":19.428014755249025},"rotation":{"x":0.05452732369303703,"y":0.7016834616661072,"z":-0.05399499088525772,"w":0.708405613899231},"size":3.6247446537017824,"orthographic":false}
+>>>>>>> parent of 3bc2b30d (2021-10-5 20:19)
