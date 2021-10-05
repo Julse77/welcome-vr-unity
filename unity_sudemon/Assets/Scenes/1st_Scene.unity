@@ -17438,7 +17438,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276630131}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.111266136, y: 0.1093173, z: 0.14791495}
@@ -17455,8 +17455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9239e989a7cf60843a4457432d201a94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paetong_in: {fileID: 0}
-  paetongAudio: {fileID: 0}
+  paetong_in: {fileID: 1721045003}
+  paetongAudio: {fileID: 678516512}
 --- !u!1001 &277842036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60762,8 +60762,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.7966716, y: 0.9999999, z: 1}
+  m_Center: {x: -0.10166428, y: 0, z: 0}
 --- !u!33 &731335030
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -66617,7 +66617,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114831812}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.4879454, y: 1.181656, z: 1}
