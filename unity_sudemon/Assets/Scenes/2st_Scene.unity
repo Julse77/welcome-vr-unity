@@ -3970,26 +3970,6 @@ MonoBehaviour:
   row3: {fileID: 494728457}
   row4: {fileID: 664715244}
   RayDistance: 15
---- !u!114 &318883486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 318883482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ddb359971f1994e8c4bc1c65debea1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rayLength: 30
-  layerMaskInteract:
-    serializedVersion: 2
-    m_Bits: 256
-  layerToExclude:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  crosshair: {fileID: 1480790333}
 --- !u!114 &318883487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25383,6 +25363,32 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 1967077043}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1967077046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: ce816f2e6abb0504092c23ed9b970dfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1967077043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1967077047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967077046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51ddb359971f1994e8c4bc1c65debea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayLength: 30
+  layerMaskInteract:
+    serializedVersion: 2
+    m_Bits: 256
+  layerToExclude:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  crosshair: {fileID: 1480790333}
 --- !u!1001 &1972653504
 PrefabInstance:
   m_ObjectHideFlags: 0
