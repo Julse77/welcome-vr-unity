@@ -4,24 +4,19 @@ using UnityEngine;
 
 public class stage2_doorOpen_1 : MonoBehaviour
 {
-    private Animator anim;
-    public GameObject firstdooropensound;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        anim = GetComponent<Animator>();
-    }
+    public GameObject firstdooropensound;
+    public GameObject door;
+
+
 
     // Update is called once per frame
     public void PlayAnimation()
     {
-        if (null != anim)
-        {
-            anim.Play("2st_openFirstDoor", 0, 0.0f);
-            firstdooropensound.SetActive(true);
-            Invoke("sounddeactivate", 5f);
-        }
+        door.SetActive(false);
+        firstdooropensound.SetActive(true);
+        Invoke("sounddeactivate", 5f);
+
     }
     void sounddeactivate()
     {

@@ -17,7 +17,7 @@ public class Sceneload : MonoBehaviour
 
     public void Gamestart()
     {
-        SceneManager.LoadScene("1st_stage_Scene");
+        SceneManager.LoadScene("1st_Scene");
     }
 
     public void QuitGame()
