@@ -3982,13 +3982,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51ddb359971f1994e8c4bc1c65debea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayLength: 5
+  rayLength: 30
   layerMaskInteract:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   layerToExclude:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   crosshair: {fileID: 1480790333}
 --- !u!114 &318883487
 MonoBehaviour:
@@ -5963,6 +5963,10 @@ PrefabInstance:
     - target: {fileID: 1114628772116904, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806, type: 3}
       propertyPath: m_TagString
       value: Row2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201294714860956, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806, type: 3}
+      propertyPath: m_Name
+      value: LockMechanism_Second
       objectReference: {fileID: 0}
     - target: {fileID: 1201294714860956, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806, type: 3}
       propertyPath: m_Layer
@@ -14452,6 +14456,10 @@ PrefabInstance:
       value: Row2
       objectReference: {fileID: 0}
     - target: {fileID: 1201294714860956, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806, type: 3}
+      propertyPath: m_Name
+      value: LockMechanism_First
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201294714860956, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806, type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
@@ -19528,38 +19536,12 @@ Transform:
   m_Father: {fileID: 2107083353}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1520982122 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100012, guid: ce816f2e6abb0504092c23ed9b970dfd,
-    type: 3}
-  m_PrefabInstance: {fileID: 1967077043}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1520982123 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: ce816f2e6abb0504092c23ed9b970dfd,
     type: 3}
   m_PrefabInstance: {fileID: 1967077043}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1520982124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520982122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ddb359971f1994e8c4bc1c65debea1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rayLength: 5
-  layerMaskInteract:
-    serializedVersion: 2
-    m_Bits: 256
-  layerToExclude:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  crosshair: {fileID: 0}
 --- !u!1001 &1524229295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25902,7 +25884,7 @@ PrefabInstance:
         type: 3}
       propertyPath: lockAnim
       value: 
-      objectReference: {fileID: 1098783324}
+      objectReference: {fileID: 2054856467}
     - target: {fileID: 114035733896578918, guid: 723d23bdd038f124a8e81f7470daaa42,
         type: 3}
       propertyPath: mainCamera
@@ -26162,6 +26144,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 462066, guid: ce816f2e6abb0504092c23ed9b970dfd,
     type: 3}
   m_PrefabInstance: {fileID: 1967077043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2054856467 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95496911462506536, guid: 2ceebfdd2b5ca5e44ad426a94bbb7806,
+    type: 3}
+  m_PrefabInstance: {fileID: 440216453}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2081119981
 GameObject:
