@@ -13,8 +13,7 @@ public class stage2_doorOpen_2 : MonoBehaviour
     {
         if (other.tag == "Key2")
         {
-            anim = this.Object230.GetComponent<Animator>();
-            anim.Play("2st_openSecondDoor");
+            Object230.SetActive(false);
             seconddoorsound.SetActive(true);
             Invoke("sounddeactivate", 5f);
         }

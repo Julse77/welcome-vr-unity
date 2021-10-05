@@ -13,8 +13,7 @@ public class stage2_doorOpen_3 : MonoBehaviour
     {
         if (other.tag == "Key3")
         {
-            anim = this.Object230.GetComponent<Animator>();
-            anim.Play("2st_openLastDoor");
+            Object230.SetActive(false);
             seconddoorsound.SetActive(true);
         }
 

@@ -32,6 +32,8 @@ TagManager:
   - Taegeukgi2_1
   - Taegeukgi3_1
   - Taegeukgi4_1
+  - lever
+  - movelever
   layers:
   - Default
   - TransparentFX
