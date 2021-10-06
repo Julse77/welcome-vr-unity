@@ -19756,6 +19756,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstdooropensound: {fileID: 1808017159}
   door: {fileID: 1547755329}
+--- !u!1 &1547755332 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2318640398490112040, guid: ac628bc4fff7eb54bbeb10f93a536c5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1547755327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1547755333
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547755329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6283066391128374908, guid: ac628bc4fff7eb54bbeb10f93a536c5f, type: 3}
+--- !u!65 &1547755334
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547755332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.050000403, y: 1.2000009, z: 2.2000017}
+  m_Center: {x: 0.024020845, y: -0.5000054, z: 0.0000006705527}
 --- !u!1 &1553468777
 GameObject:
   m_ObjectHideFlags: 0
