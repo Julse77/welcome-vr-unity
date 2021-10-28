@@ -16364,6 +16364,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 168962, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_TagString
+      value: PlayerHand
+      objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -60100,12 +60104,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771641954}
-  m_LocalRotation: {x: -0, y: -0.02297601, z: -0, w: 0.9997361}
-  m_LocalPosition: {x: 0, y: 0, z: 1.06}
+  m_LocalRotation: {x: -0, y: -0.022976011, z: -0, w: 0.9997361}
+  m_LocalPosition: {x: 0, y: 0, z: 1.0599997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 327688527}
-  m_Father: {fileID: 1233953887}
+  m_Father: {fileID: 262924619}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -61346,7 +61350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &788434871
 RectTransform:
   m_ObjectHideFlags: 0
