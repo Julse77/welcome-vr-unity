@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class prisondoorOpen_1st : MonoBehaviour
 {
@@ -16,6 +17,12 @@ public class prisondoorOpen_1st : MonoBehaviour
         if (null != anim)
         {
             anim.Play("1st_openPrisonDoor", 0, 0.0f);
+            Invoke("LoadNextScene", 1f);
         }
     }
+
+    void LoadNextScene()
+    {
+        SceneManager.LoadScene("1st_Scene_4C");
+    }  
 }
