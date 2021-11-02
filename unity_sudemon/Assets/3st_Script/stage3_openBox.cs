@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class stage3_openBox : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class stage3_openBox : MonoBehaviour
         if (null != anim)
         {
             anim.Play("3st_openBox", 0, 0.0f);
+            Invoke("LoadNextScene", 1f);
             //firstdooropensound.SetActive(true);
             //Invoke("sounddeactivate", 5f);
         }
@@ -27,4 +29,9 @@ public class stage3_openBox : MonoBehaviour
     // {
     //     firstdooropensound.SetActive(false);
     // }
+
+    void LoadNextScene()
+    {
+        SceneManager.LoadScene("3st_Scene_1C");
+    } 
 }
