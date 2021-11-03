@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class paetongdrop : MonoBehaviour
 {
@@ -23,9 +24,14 @@ public class paetongdrop : MonoBehaviour
             paetongAudio.SetActive(true);
             anim = this.paetong_in.GetComponent<Animator>();
             anim.Play("1st_contPaetong");
-            
+            Invoke("Scene3", 3f);
+
         }
 
     }
-    
+    void Scene3()
+    {
+        SceneManager.LoadScene("1st_Scene_2C");
+    }
+
 }

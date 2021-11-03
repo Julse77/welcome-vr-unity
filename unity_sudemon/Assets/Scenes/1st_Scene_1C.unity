@@ -17311,7 +17311,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276630131}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.111266136, y: 0.1093173, z: 0.14791495}
@@ -17330,6 +17330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paetong_in: {fileID: 1721045003}
   paetongAudio: {fileID: 1023383940}
+  nailanim: {fileID: 0}
+  nail2: {fileID: 0}
 --- !u!1001 &277842036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71457,7 +71459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1215720407
 Transform:
   m_ObjectHideFlags: 0
@@ -73454,6 +73456,7 @@ Transform:
   - {fileID: 522346558}
   - {fileID: 927388154}
   - {fileID: 1742415878}
+  - {fileID: 1580724111}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -79479,6 +79482,138 @@ Transform:
   m_Father: {fileID: 1842630787}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 102.108, y: 89.99999, z: 89.996994}
+--- !u!1 &1580724110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1580724111}
+  - component: {fileID: 1580724116}
+  - component: {fileID: 1580724115}
+  - component: {fileID: 1580724114}
+  - component: {fileID: 1580724113}
+  - component: {fileID: 1580724112}
+  m_Layer: 0
+  m_Name: anim_Nail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1580724111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580724110}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.918793, y: 2.8557336, z: 4.8616734}
+  m_LocalScale: {x: 2.85143, y: 2.85143, z: 2.85143}
+  m_Children: []
+  m_Father: {fileID: 1418658764}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1580724112
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580724110}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 82736f150c873f5428a0a444f0ff7cce, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1580724113
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580724110}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.013643068, y: 0.016209926, z: 0.050759934}
+  m_Center: {x: 0.00014080535, y: -0.00060133886, z: 0.000000010451705}
+--- !u!114 &1580724114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580724110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+  m_materialColorField: _OutlineColor
+--- !u!23 &1580724115
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580724110}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 759646663f105fc4d8f11c8c10f86f0d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1580724116
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580724110}
+  m_Mesh: {fileID: -4192190201172746012, guid: ecdc464bed1d64a4885f0082373295ad, type: 3}
 --- !u!1 &1583061654
 GameObject:
   m_ObjectHideFlags: 0
@@ -84347,6 +84482,7 @@ GameObject:
   - component: {fileID: 1606081751}
   - component: {fileID: 1606081753}
   - component: {fileID: 1606081752}
+  - component: {fileID: 1606081754}
   m_Layer: 0
   m_Name: 1st_paetongbutton_drop
   m_TagString: Untagged
@@ -84383,6 +84519,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paetong_in: {fileID: 1721045003}
   paetongAudio: {fileID: 1023383940}
+  nailanim: {fileID: 1580724110}
+  nail2: {fileID: 8229119090349500837}
 --- !u!65 &1606081753
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84391,11 +84529,27 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606081750}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.067103386, y: 0.038200855, z: 0.046969175}
-  m_Center: {x: -0.31557035, y: -0.24495071, z: -0.2235753}
+  m_Size: {x: 0.08179808, y: 0.11035192, z: 0.046969175}
+  m_Center: {x: -0.3229177, y: -0.24416637, z: -0.2235753}
+--- !u!54 &1606081754
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606081750}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1610965817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95602,13 +95756,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8229119090349500837}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.495, y: 0.3322, z: 7.5714}
-  m_LocalScale: {x: 2.851432, y: 2.8514316, z: 2.8514316}
+  m_LocalRotation: {x: -0, y: 0.74394214, z: -0, w: 0.668244}
+  m_LocalPosition: {x: 1.521, y: 0.328, z: 7.549}
+  m_LocalScale: {x: 4.3519444, y: 4.351944, z: 4.351944}
   m_Children: []
   m_Father: {fileID: 538680029}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 96.137, z: 0}
 --- !u!33 &6715721376792140154
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -95757,8 +95911,8 @@ GameObject:
   - component: {fileID: 6847452001247734444}
   - component: {fileID: 2757946847399177993}
   - component: {fileID: 8229119090349500838}
-  - component: {fileID: 8229119090349500839}
   - component: {fileID: 8229119090349500840}
+  - component: {fileID: 8229119090349500839}
   m_Layer: 8
   m_Name: Rusty_Nail 1
   m_TagString: Nail
@@ -95795,8 +95949,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.013643068, y: 0.016209926, z: 0.050759934}
-  m_Center: {x: 0.00014080535, y: -0.00060133886, z: 0.000000010451705}
+  m_Size: {x: 0.0078314645, y: 0.007867496, z: 0.050759934}
+  m_Center: {x: 0, y: 0, z: 0.000000009313225}
 --- !u!54 &8229119090349500840
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -95806,9 +95960,9 @@ Rigidbody:
   m_GameObject: {fileID: 8229119090349500837}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 4.4
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0

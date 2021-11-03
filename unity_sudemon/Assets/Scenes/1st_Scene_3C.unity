@@ -16953,6 +16953,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paetong_in: {fileID: 0}
   paetongAudio: {fileID: 0}
+  nailanim: {fileID: 0}
+  nail2: {fileID: 0}
 --- !u!1001 &277842036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70682,7 +70684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1215720407
 Transform:
   m_ObjectHideFlags: 0
@@ -83173,6 +83175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paetong_in: {fileID: 1721045003}
   paetongAudio: {fileID: 1023383940}
+  nailanim: {fileID: 0}
+  nail2: {fileID: 0}
 --- !u!65 &1606081753
 BoxCollider:
   m_ObjectHideFlags: 0

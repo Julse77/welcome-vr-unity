@@ -11,7 +11,7 @@ public class stage3_SceneChange : MonoBehaviour
         if (other.tag == "PlayerHand")
         {
             image1.SetActive(true);
-            Invoke("endingScene", 5f);
+            Invoke("endingScene", 3f);
         }
 
     }
