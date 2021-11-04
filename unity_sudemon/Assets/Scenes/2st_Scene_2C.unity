@@ -133,6 +133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Padlock_Interactable_Last
       objectReference: {fileID: 0}
+    - target: {fileID: 1009018564446034, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3503,7 +3507,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 55780fa501277f240af9d14a0c1604f0,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55780fa501277f240af9d14a0c1604f0, type: 3}
@@ -22237,6 +22241,10 @@ PrefabInstance:
     - target: {fileID: 1009018564446034, guid: df914dd955253454aa5410fad0c87478, type: 3}
       propertyPath: m_Name
       value: Padlock_Interactable_First
+      objectReference: {fileID: 0}
+    - target: {fileID: 1009018564446034, guid: df914dd955253454aa5410fad0c87478, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4738224880697556, guid: df914dd955253454aa5410fad0c87478, type: 3}
       propertyPath: m_RootOrder
