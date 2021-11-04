@@ -10,6 +10,7 @@ public class stage2_3roomOpenbox : MonoBehaviour
     public GameObject Taegeukgi2_1;
     public GameObject Taegeukgi3_1;
     public GameObject Taegeukgi4_1;
+    public GameObject key3;
     
     
 
@@ -39,6 +40,7 @@ public class stage2_3roomOpenbox : MonoBehaviour
 
     void openbox()
     {
+        key3.SetActive(true);
         anim = this.room3box.GetComponent<Animator>();
         anim.Play("2st_3roomboxopen");
     }
