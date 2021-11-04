@@ -14741,6 +14741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openSound: {fileID: 1103923344}
+  longStick: {fileID: 1530601410445144789}
 --- !u!114 &999623587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17043,8 +17044,8 @@ GameObject:
   - component: {fileID: 1183857950}
   - component: {fileID: 1183857951}
   m_Layer: 0
-  m_Name: Object321321384 (1)
-  m_TagString: Untagged
+  m_Name: LastDoor1
+  m_TagString: LastDoorOpen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25502,8 +25503,8 @@ GameObject:
   - component: {fileID: 1724009685}
   - component: {fileID: 1724009686}
   m_Layer: 0
-  m_Name: Object321321383 (1)
-  m_TagString: Untagged
+  m_Name: LastDoor2
+  m_TagString: LastDoorOpen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
