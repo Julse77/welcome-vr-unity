@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class stage2_roxboxopen : MonoBehaviour
 {
@@ -18,7 +19,12 @@ public class stage2_roxboxopen : MonoBehaviour
             handpicture.SetActive(true);
             anim = this.Object231.GetComponent<Animator>();
             anim.Play("2st_openroxbox");
+            Invoke("Scene3", 2f);
 
         }
+    }
+    void Scene3()
+    {
+        SceneManager.LoadScene("2st_Scene_1C");
     }
 }
