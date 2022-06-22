@@ -1,0 +1,1064 @@
+Unity Editor version:    2021.3.1f1 (3b70a0754835)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60210
+Successfully changed project path to: /Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon
+/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 53.14 ms, found 6 plugins.
+Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): tried: '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/../Frameworks/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer' (no such file), '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/../Frameworks/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer' (no such file), 'Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e')), '/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e'))
+Preloading 1 native plugins for Editor in 0.63 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56503
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002039 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 43.10 ms, found 6 plugins.
+Plugins: Couldn't open /Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): tried: '/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e'))
+Preloading 1 native plugins for Editor in 0.31 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.553 seconds
+Domain Reload Profiling:
+	ReloadAssembly (553ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (361ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (51ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001939 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 6 plugins.
+Plugins: Couldn't open /Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): tried: '/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e'))
+Preloading 1 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  0.675 seconds
+Domain Reload Profiling:
+	ReloadAssembly (675ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (438ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (127ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (182ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 6 plugins.
+Plugins: Couldn't open /Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): tried: '/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e'))
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 2464 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (467.2 KB). Loaded Objects now: 2950.
+Memory consumption went from 306.4 MB to 305.9 MB.
+Total: 2.681958 ms (FindLiveObjects: 0.133375 ms CreateObjectMapping: 0.032875 ms MarkObjects: 2.306334 ms  DeleteObjects: 0.205125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 422607.497903 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(1be06097fe56a9c46a1f48ad5953b1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(1be06097fe56a9c46a1f48ad5953b1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9491a14217edda92da62480cc2d85624') in 0.164608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Japanese_soldier_LOD_0_Prefab.fbx
+  artifactKey: Guid(45d76fb36666a9444ab8f97def7e9797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese_soldier_LOD_0_Prefab.fbx using Guid(45d76fb36666a9444ab8f97def7e9797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24d92ea34cde21fbe85fa34bebc87b5') in 0.266955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.089800 seconds.
+  path: Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer
+  artifactKey: Guid(1dd706bb85d8aef4e83a6229dbd62c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer using Guid(1dd706bb85d8aef4e83a6229dbd62c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1471a01f60c894e396f3237b9c5c96') in 0.039018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.590428 seconds.
+  path: Assets/PBR_Treasures_pack_2/Textures/1.psd
+  artifactKey: Guid(3524ca5c00de54746973f269ab0f0c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Treasures_pack_2/Textures/1.psd using Guid(3524ca5c00de54746973f269ab0f0c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7e18418e8218da7ea45eac1da73783') in 0.930481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/map_2st/2st_두번째벽.psd
+  artifactKey: Guid(da6e2a84cdba2bf44a156c7739cf9e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_2st/2st_두번째벽.psd using Guid(da6e2a84cdba2bf44a156c7739cf9e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacd8c6acc5f78fafbb5b116abdc8b05') in 0.016384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/map_2st/2st_세번째양동이,목각.psd
+  artifactKey: Guid(7c00b1947ecdaa9449279680955e16c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_2st/2st_세번째양동이,목각.psd using Guid(7c00b1947ecdaa9449279680955e16c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb483638e6b750de3ed976513a7fd18') in 0.020612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/map_2st/2room_floor.psd
+  artifactKey: Guid(49a42ad4b05355a44819c6f44a9a8a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_2st/2room_floor.psd using Guid(49a42ad4b05355a44819c6f44a9a8a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8689d499f915411dfeede238277733') in 0.009436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/map_2st/2st_세번째벽.psd
+  artifactKey: Guid(b9519bc193532984ca77b7b1a93f7916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_2st/2st_세번째벽.psd using Guid(b9519bc193532984ca77b7b1a93f7916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bd985c0f733170328d021ac9373b15') in 0.006042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/subtitles/1스테이지 자막 2.png
+  artifactKey: Guid(5a9ea59016006da4ebdb952fe3c2a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/subtitles/1스테이지 자막 2.png using Guid(5a9ea59016006da4ebdb952fe3c2a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b32859c5966e3814c88a469c08ae611') in 0.075276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.271361 seconds.
+  path: Assets/map_2st/2st_양동이,종이.psd
+  artifactKey: Guid(78aa52336989f824f9268ff758aab5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_2st/2st_양동이,종이.psd using Guid(78aa52336989f824f9268ff758aab5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb36b8588f7a425bf424d5d90b26313') in 0.032920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.081762 seconds.
+  path: Assets/subtitles/2스테이지 자막 1.png
+  artifactKey: Guid(6dfbc931eae60cf4c8fc7f05f1bd0a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/subtitles/2스테이지 자막 1.png using Guid(6dfbc931eae60cf4c8fc7f05f1bd0a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a17b19c04ccb5d579eae482828cf13') in 0.028855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.644980 seconds.
+  path: Assets/PBR_Treasures_pack_2/Textures/3.psd
+  artifactKey: Guid(0951f9f56c80cb04798c754d886c09da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Treasures_pack_2/Textures/3.psd using Guid(0951f9f56c80cb04798c754d886c09da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911bcd7f5e8d360896ee8df84fd88595') in 0.015493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041046 seconds.
+  path: Assets/subtitles/3스테이지 자막 2.png
+  artifactKey: Guid(3c466fd321a2b0646b05dc4f08278c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/subtitles/3스테이지 자막 2.png using Guid(3c466fd321a2b0646b05dc4f08278c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7293d4d93b39fc39e0ec1b381cf94aef') in 0.010711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.609676 seconds.
+  path: Assets/Padlock System/Textures/Misc Codes/2421_Diff.psd
+  artifactKey: Guid(11f4711ac86f2b8449b014b54b0d36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Padlock System/Textures/Misc Codes/2421_Diff.psd using Guid(11f4711ac86f2b8449b014b54b0d36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d72f436d8ebf331352bd4a7d645c149') in 0.011282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.578682 seconds.
+  path: Assets/Padlock System/Textures/Misc Codes/7328_Diff.psd
+  artifactKey: Guid(7718312920cc5ee46a5b41d57cc07a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Padlock System/Textures/Misc Codes/7328_Diff.psd using Guid(7718312920cc5ee46a5b41d57cc07a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54699407f1bbddeab005aa5ba756e616') in 0.009417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/ball_billiard_03_dif.jpg
+  artifactKey: Guid(6f62dbb8fce29e04fb0a99913642d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/ball_billiard_03_dif.jpg using Guid(6f62dbb8fce29e04fb0a99913642d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92c050a3a5f2f73c36f7d8de7c6fb13') in 0.507998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.160458 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/ball_billiard_10_dif.jpg
+  artifactKey: Guid(2314f2250e16c224fbaa392942901582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/ball_billiard_10_dif.jpg using Guid(2314f2250e16c224fbaa392942901582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4bd9be9c2d52c72ba112f0089d044d') in 0.007979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212101 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/StartScene/Textures/BlackCubemap.png
+  artifactKey: Guid(b40a1cb5f1124ec489cc1e7a533e46e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/StartScene/Textures/BlackCubemap.png using Guid(b40a1cb5f1124ec489cc1e7a533e46e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12108cd07762da8f09a1cbe68fb7336b') in 0.195324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.278335 seconds.
+  path: Assets/map/bswood 1.psd
+  artifactKey: Guid(534b7b1bc6dc5c64c8f4514ce4139f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/bswood 1.psd using Guid(534b7b1bc6dc5c64c8f4514ce4139f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8064d904e388ddc9c4d0f4a2977f7b8') in 0.013782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314118 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Textures/button9slice.png
+  artifactKey: Guid(eec623c29607b1447ac4dc6de3cdda6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Textures/button9slice.png using Guid(eec623c29607b1447ac4dc6de3cdda6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd511a9fb546c2e5a6ea862cc91e3b8a3') in 0.011474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Oculus/VR/Textures/color_ramp_timer.tga
+  artifactKey: Guid(8929c8bc5148a624b8c9d6df0ee6f0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Textures/color_ramp_timer.tga using Guid(8929c8bc5148a624b8c9d6df0ee6f0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188e65fa444b4a3302fd71b26fd29c4f') in 0.602194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/CH.png
+  artifactKey: Guid(5e6531e8f56b42547b8d2ddf7a7363d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/CH.png using Guid(5e6531e8f56b42547b8d2ddf7a7363d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5185feeafde711e171ba7903b046c3d') in 0.008984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/map/cell_wood.psd
+  artifactKey: Guid(2b9036d461221b345988eb118f1579f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/cell_wood.psd using Guid(2b9036d461221b345988eb118f1579f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b35c9bd07869d67437d1bc92a9be513') in 0.005951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.317957 seconds.
+  path: Assets/Padlock System/Textures/Padlock_Black/CombinationLock_Low_Dup_PadLock_Combination_Mat_MetallicSmoothness.tga
+  artifactKey: Guid(8bf57ccd1efbdb64ca4bc8ee157109e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Padlock System/Textures/Padlock_Black/CombinationLock_Low_Dup_PadLock_Combination_Mat_MetallicSmoothness.tga using Guid(8bf57ccd1efbdb64ca4bc8ee157109e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3cbb106a2e6f08113c681aaf56d511') in 0.011119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026129 seconds.
+  path: Assets/Padlock System/Textures/Padlock_SharedMaps/CombinationLock_Low_Dup_PadLock_Combination_Mat_Normal.tga
+  artifactKey: Guid(503d8811790b02b4aa02d0c73f047318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Padlock System/Textures/Padlock_SharedMaps/CombinationLock_Low_Dup_PadLock_Combination_Mat_Normal.tga using Guid(503d8811790b02b4aa02d0c73f047318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa26352b2b118dab7f429996907befed') in 0.008001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Padlock System/Textures/Padlock_SharedMaps/CombinationLock_Low_Dup_PadLock_Main_Mat_AO.tga
+  artifactKey: Guid(88b73fa83c33bed4f95521a8a27dd59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Padlock System/Textures/Padlock_SharedMaps/CombinationLock_Low_Dup_PadLock_Main_Mat_AO.tga using Guid(88b73fa83c33bed4f95521a8a27dd59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef509d7fdc21e2c773e54300d0c178dd') in 0.007296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.013246 seconds.
+  path: Assets/Padlock System/Textures/Padlock_Brass/CombinationLock_Low_Dup_PadLock_Main_Mat_MetallicSmoothness.tga
+  artifactKey: Guid(56c86250e203b374eb3b2eb8f5e5c445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Padlock System/Textures/Padlock_Brass/CombinationLock_Low_Dup_PadLock_Main_Mat_MetallicSmoothness.tga using Guid(56c86250e203b374eb3b2eb8f5e5c445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524cdaaa89361589c4d3172201dc88bd') in 0.014152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013023 seconds.
+  path: Assets/Padlock System/Textures/Padlock_SharedMaps/CombinationLock_Low_Dup_PadLock_Main_Mat_Normal.tga
+  artifactKey: Guid(2757d5632ab99ea4389e022e78b3c97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Padlock System/Textures/Padlock_SharedMaps/CombinationLock_Low_Dup_PadLock_Main_Mat_Normal.tga using Guid(2757d5632ab99ea4389e022e78b3c97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d89a90af9640b6e6bb1c06d5fd5f96') in 0.010354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/concrete_01_nml.png
+  artifactKey: Guid(701403c147f7e4788b7fa79df53cc543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/concrete_01_nml.png using Guid(701403c147f7e4788b7fa79df53cc543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e501bcca5fe82ebe63dde839c822aa1b') in 0.009933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.597145 seconds.
+  path: Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png
+  artifactKey: Guid(97b050d43ac7c4d2b9f6cbb587650761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png using Guid(97b050d43ac7c4d2b9f6cbb587650761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e83a5396a68265c1f34d60a10c3b00') in 0.012519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022350 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/ControllerBoxTextures/controller_plain_Normal.png
+  artifactKey: Guid(7f8077361e7b21249addda6af5112431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/ControllerBoxTextures/controller_plain_Normal.png using Guid(7f8077361e7b21249addda6af5112431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a1a2a12255e2f5620675290b9e8f50') in 0.009194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/CubeTex.png
+  artifactKey: Guid(3e3e0ea18d891114cb286c873e03af91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/CubeTex.png using Guid(3e3e0ea18d891114cb286c873e03af91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdf404378f320446bf339ec1676a749') in 0.004893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.293250 seconds.
+  path: Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/DD.png
+  artifactKey: Guid(ffbd7db31d3ad6e4a97a2f312babdcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/DD.png using Guid(ffbd7db31d3ad6e4a97a2f312babdcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa7b1b65b58cc546729af1665964133') in 0.008635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.193185 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/diorama_paint_diorama_bg_elements_DiffuseGlossiness.png
+  artifactKey: Guid(78fba6399dff89e4faa8f52eb005a8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/diorama_paint_diorama_bg_elements_DiffuseGlossiness.png using Guid(78fba6399dff89e4faa8f52eb005a8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550cef2aa98561c88f1b13b0fedd72c2') in 0.009991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.947283 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/diorama_paint_diorama_main_elements_DiffuseGlossiness.png
+  artifactKey: Guid(67dce7e8b86381241a992e155b539e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/diorama_paint_diorama_main_elements_DiffuseGlossiness.png using Guid(67dce7e8b86381241a992e155b539e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7603d819bab6edece8f09e39edf0b089') in 0.014526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/map/door.psd
+  artifactKey: Guid(b3eedc745d89fd9459c1300bc5e7a204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/door.psd using Guid(b3eedc745d89fd9459c1300bc5e7a204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ab136949505d17dcadcab3f7afc3d0') in 0.009823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_256.png
+  artifactKey: Guid(7d8da3d06466cc04da8c020819170a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_256.png using Guid(7d8da3d06466cc04da8c020819170a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420b523adf35850e8140d7782e7f24fd') in 0.008803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_02_dif.png
+  artifactKey: Guid(b7600ae2b00af42b3b06a37401929b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_wood_02_dif.png using Guid(b7600ae2b00af42b3b06a37401929b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3bc74b2f66c138c6f655f55c1a022c') in 0.015297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/map_2st/hallway_door.psd
+  artifactKey: Guid(eacd1ce73410ceb4b8d7f69e90999723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_2st/hallway_door.psd using Guid(eacd1ce73410ceb4b8d7f69e90999723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e611f2a46decd3694e8998496c3abff3') in 0.007097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Oculus/LipSync/Models/FemaleHead_Morph/hair_NRM.tga
+  artifactKey: Guid(e59519b819b1843cb94acf4e281e8c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/FemaleHead_Morph/hair_NRM.tga using Guid(e59519b819b1843cb94acf4e281e8c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f56f0d5b3771937453c379591f6eff') in 0.007868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/grid_10x10_v4.png
+  artifactKey: Guid(f2660f35c6546224e87dd8e9822a3531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/grid_10x10_v4.png using Guid(f2660f35c6546224e87dd8e9822a3531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b61b4c29a09b0ee6daad900ba509041') in 0.004942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_tile_01_msm.png
+  artifactKey: Guid(f9e3086c956ea4e31b9a07c5d9897182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/floor_tile_01_msm.png using Guid(f9e3086c956ea4e31b9a07c5d9897182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2761a2a4324e87be32e8093a0f68ba') in 0.011167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/map/hallway_wall.psd
+  artifactKey: Guid(ea39eb30b823a9d4791bb074bb33f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/hallway_wall.psd using Guid(ea39eb30b823a9d4791bb074bb33f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fa2855e0ddcf6e985413a155ab0cfd') in 0.005036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/map_3st/hallway_door.psd
+  artifactKey: Guid(aec72edb9ee42244f8b28c7e8d0fef51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/hallway_door.psd using Guid(aec72edb9ee42244f8b28c7e8d0fef51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773916dd9e516176c4c0c93ddf4fcef0') in 0.005421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_1024.png
+  artifactKey: Guid(502d438d2584976448c3cdb146ed836d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_1024.png using Guid(502d438d2584976448c3cdb146ed836d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17727fc83668285c6bef6efbcf6aefde') in 0.004853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/New Folder/exit-word-in-a-rectangular-signal.png
+  artifactKey: Guid(55da09f5d1df4a747b0139a90ca9de38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/exit-word-in-a-rectangular-signal.png using Guid(55da09f5d1df4a747b0139a90ca9de38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166dd9924d6ed1fede6e991183a2ce26') in 0.006135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/map_2st/door 1.psd
+  artifactKey: Guid(2040251b207eb8948aea6c13ec912127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_2st/door 1.psd using Guid(2040251b207eb8948aea6c13ec912127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9ebd3293fd27d1dc894ad8acabae9b') in 0.005729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/map/hallway_door2.psd
+  artifactKey: Guid(b63bcee52ce1beb478f8dbd97031b941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/hallway_door2.psd using Guid(b63bcee52ce1beb478f8dbd97031b941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbd3322f10f8bde5285e7945efb75ee') in 0.006334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.178470 seconds.
+  path: Assets/Japanese Soldier/Textures/japanese_soldier_body_AO.png
+  artifactKey: Guid(ec615843c5fc2be45ac0879eff3cb14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Soldier/Textures/japanese_soldier_body_AO.png using Guid(ec615843c5fc2be45ac0879eff3cb14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281fec4caaa0ba9bcb49e1fb92ca7caa') in 0.008273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Japanese Soldier/Textures/japanese_soldier_body_Metallic.png
+  artifactKey: Guid(4826931e3720a8043a2976e83d9134dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Soldier/Textures/japanese_soldier_body_Metallic.png using Guid(4826931e3720a8043a2976e83d9134dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8873028c9aa4d364742eb2bc4d4f459') in 0.012854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Japanese Soldier/Textures/japanese_soldier_body_Normal.png
+  artifactKey: Guid(c3fcbeec8c6c3b54887c5c79fd5b391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Soldier/Textures/japanese_soldier_body_Normal.png using Guid(c3fcbeec8c6c3b54887c5c79fd5b391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e92802e19880f35df794ab6ae0b819') in 0.009874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Japanese Soldier/Textures/japanese_soldier_body_Roughness.png
+  artifactKey: Guid(b4fb9339bc2aebe40a5eb63225c56365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Soldier/Textures/japanese_soldier_body_Roughness.png using Guid(b4fb9339bc2aebe40a5eb63225c56365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcdc56c73841045581f6d403d86318e') in 0.009856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.122479 seconds.
+  path: Assets/Japanese Soldier/Textures/japanese_soldier_head_Roughness.png
+  artifactKey: Guid(424fe6374f93f0047ad9f02e600e0ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Soldier/Textures/japanese_soldier_head_Roughness.png using Guid(424fe6374f93f0047ad9f02e600e0ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00ff11b2cb6c84afcef2e967a19c12a') in 0.015456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Triple_Resource/Character/Korean Male/Textures/Josun_Male_3_Body_D.png
+  artifactKey: Guid(016aaee0321b9e340b78419c0688ad6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple_Resource/Character/Korean Male/Textures/Josun_Male_3_Body_D.png using Guid(016aaee0321b9e340b78419c0688ad6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a709601d0cb195d3ceca051e0564944c') in 0.009284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017982 seconds.
+  path: Assets/Triple_Resource/Character/Korean Male/Textures/Josun_Male_Body_D111111_psd.psd
+  artifactKey: Guid(c5e29257832d06549a1069a7a7e9148a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple_Resource/Character/Korean Male/Textures/Josun_Male_Body_D111111_psd.psd using Guid(c5e29257832d06549a1069a7a7e9148a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab44e51034418f893604651e3767f27') in 0.008557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Triple_Resource/Character/Korean Male/Textures/Josun_Male_Skin_D_psd.psd
+  artifactKey: Guid(28bd97e1c2d279b4a9573f57e72393df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple_Resource/Character/Korean Male/Textures/Josun_Male_Skin_D_psd.psd using Guid(28bd97e1c2d279b4a9573f57e72393df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd838795919f936547494161ffa76397b') in 0.006754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Triple_Resource/Character/Korean Male/Textures/Josun_Male_Hat_D.png
+  artifactKey: Guid(d1430c7ed655d094f8a3149ea0b7d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple_Resource/Character/Korean Male/Textures/Josun_Male_Hat_D.png using Guid(d1430c7ed655d094f8a3149ea0b7d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5ca087d398d0f709f9f40da641fd9e') in 0.006368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Triple_Resource/Character/Korean Male/Textures/Josun_Male_hair_D_psd.psd
+  artifactKey: Guid(dde7f93fb998f3c40a4e9491b19b3f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple_Resource/Character/Korean Male/Textures/Josun_Male_hair_D_psd.psd using Guid(dde7f93fb998f3c40a4e9491b19b3f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9cbc539363c5b7e53bb4c77e2502c8') in 0.008735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180699 seconds.
+  path: Assets/Scenes/1st_Scene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(125cbb6fff9574b468f1aeb4cb043b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1st_Scene/Lightmap-0_comp_dir.png using Guid(125cbb6fff9574b468f1aeb4cb043b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3291c9223f62f4ca93a1407aa3be7fa1') in 0.008865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(3e1e7440b4e5ffe49be50693709e4472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-0_comp_dir.png using Guid(3e1e7440b4e5ffe49be50693709e4472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6065c20a96fc7cb5d7cb7a7ffb82a210') in 0.009682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Ultimate 10 Plus Shaders/Scenes/Review/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(ca6261520a6173b4d8337deccdbd2cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate 10 Plus Shaders/Scenes/Review/Lightmap-0_comp_shadowmask.png using Guid(ca6261520a6173b4d8337deccdbd2cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c44147256e46d37927212c5b873620c') in 0.010808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/1st_Scene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(4c1a5bee16d94f6479a4ae04a7b886f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1st_Scene/Lightmap-1_comp_dir.png using Guid(4c1a5bee16d94f6479a4ae04a7b886f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afacd08dbbac0ad4e48ce6e494ed8965') in 0.005778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(c441ec513759f0641996383614cb4a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-0_comp_light.exr using Guid(c441ec513759f0641996383614cb4a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800212ac63e5c793a3b4f628089de89e') in 0.690439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_DIFF.png
+  artifactKey: Guid(466d221c743ab400a8318afe7b830593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_DIFF.png using Guid(466d221c743ab400a8318afe7b830593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0300c05669a2ef43f327cf3e078fcc2') in 0.011003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-24_comp_light.exr
+  artifactKey: Guid(8bc3b51c94085cc4796c223656e118f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-24_comp_light.exr using Guid(8bc3b51c94085cc4796c223656e118f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f2f5026d662af68f83deb2740bff5b') in 0.003983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Dnk_Dev/RockPack/Textures/T_Rock_03_N.tga
+  artifactKey: Guid(9bc876c01fa09934ea78189486a850b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/RockPack/Textures/T_Rock_03_N.tga using Guid(9bc876c01fa09934ea78189486a850b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df8b9b64f0d4166adfc385db7c3762d') in 0.006811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-33_comp_shadowmask.png
+  artifactKey: Guid(8614d160622632c48973c928e59f1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-33_comp_shadowmask.png using Guid(8614d160622632c48973c928e59f1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257b97f422de8c53a6ce85f3c8a56aa6') in 0.005296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-20_comp_shadowmask.png
+  artifactKey: Guid(2a6d7d6fb30540e4aaae65a63067194c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-20_comp_shadowmask.png using Guid(2a6d7d6fb30540e4aaae65a63067194c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0d06b7dda3bd873844b026b38eacd8') in 0.004425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-25_comp_light.exr
+  artifactKey: Guid(5d4aa2361fbd7f647972ea7d407bdd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-25_comp_light.exr using Guid(5d4aa2361fbd7f647972ea7d407bdd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898eff3539c4677f9d4c565989398293') in 0.004811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Mannequins/Models/Male/Mat_unity/Damage2/Mannequins_male_SP_Mannequins_male_mat_MetallicSmoothness.png
+  artifactKey: Guid(5099e0a39be57344390b4ed445c4b6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mannequins/Models/Male/Mat_unity/Damage2/Mannequins_male_SP_Mannequins_male_mat_MetallicSmoothness.png using Guid(5099e0a39be57344390b4ed445c4b6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1879f98edb36e6f36283213bf12201') in 0.005967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ultimate 10 Plus Shaders/Scenes/Review/Lightmap-0_comp_light.exr
+  artifactKey: Guid(c2b032cce1497964b84dfeb139c2023b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate 10 Plus Shaders/Scenes/Review/Lightmap-0_comp_light.exr using Guid(c2b032cce1497964b84dfeb139c2023b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05f18c814a7506f8331b3cfcc9d9852') in 0.005723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mannequins/Models/Female/Unity_mat/Damage/Mannequins_female_SP_Mannequins_female_mat_AlbedoTransparency.png
+  artifactKey: Guid(b22887bd739306144bca4908d2b95283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mannequins/Models/Female/Unity_mat/Damage/Mannequins_female_SP_Mannequins_female_mat_AlbedoTransparency.png using Guid(b22887bd739306144bca4908d2b95283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afce0b359698e9eeec93fc6a28805da9') in 0.005871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/SmokeBillow_atlas_001_v2.png
+  artifactKey: Guid(32e6491eddb35c34f8f3a3bc71b8ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/SmokeBillow_atlas_001_v2.png using Guid(32e6491eddb35c34f8f3a3bc71b8ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3f9866ce8da0b1d0232e174c1b39ac') in 0.005548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-24_comp_dir.png
+  artifactKey: Guid(e601ff6526fef2a4e86bab6ed477dff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-24_comp_dir.png using Guid(e601ff6526fef2a4e86bab6ed477dff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c19285523f3d0551ca506f04b87c79') in 0.003952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/1st_Scene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(769693296dcef704188ee347a48b19b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1st_Scene/Lightmap-1_comp_light.exr using Guid(769693296dcef704188ee347a48b19b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2390b711b550969cb9bc2573fcffe3cb') in 0.005205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Padlock System/Models/Door/LR_Door_LowV3_RoomDOor_AO.png
+  artifactKey: Guid(e27ee810480dede4eadf1a20e18e89ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Padlock System/Models/Door/LR_Door_LowV3_RoomDOor_AO.png using Guid(e27ee810480dede4eadf1a20e18e89ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f9610403d439647ae91d3da5e5166b') in 0.005920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-38_comp_light.exr
+  artifactKey: Guid(c89369294e3e2b243a0856c19795596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-38_comp_light.exr using Guid(c89369294e3e2b243a0856c19795596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20c6d244350e43ecad47bf8d700222b') in 0.004233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Triple_Resource/Character/Korean Male/Rick/sgmxbc0c_2K_Normal.png
+  artifactKey: Guid(67b28ffd578ef0541b506be3262aa48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple_Resource/Character/Korean Male/Rick/sgmxbc0c_2K_Normal.png using Guid(67b28ffd578ef0541b506be3262aa48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9567681ec77ffe8ee3cadab3414536ca') in 0.005261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(52b8aafcaed21774ba86914203217502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-1_comp_dir.png using Guid(52b8aafcaed21774ba86914203217502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc8a944b981f82e14bc1d2dd6bca894') in 0.006410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_02_emi.png
+  artifactKey: Guid(e101268ba1d244def93ea23c83d3cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_02_emi.png using Guid(e101268ba1d244def93ea23c83d3cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a008c620544d67b3469f4d60dc567c4') in 0.006242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Textures/panel_background.PNG
+  artifactKey: Guid(d929e2a65a1cbc54dacdbdcdb33165e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Textures/panel_background.PNG using Guid(d929e2a65a1cbc54dacdbdcdb33165e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52ddb57873a6376c0b7606ea5370328') in 0.908125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/map/전구.psd
+  artifactKey: Guid(bd33c9344c3d36f4686bfdec23016070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/전구.psd using Guid(bd33c9344c3d36f4686bfdec23016070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18f40aa9c66da2cc3748517d0ad63d8') in 0.010425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/map_3st/의자,책상.psd
+  artifactKey: Guid(e2e6178fd1ca3564298fba6b33c84ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/의자,책상.psd using Guid(e2e6178fd1ca3564298fba6b33c84ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d83ec72d3f980b1cbeba56f88bdc61') in 0.007054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-26_comp_shadowmask.png
+  artifactKey: Guid(5dbb562af96fff14f8750df12a4a9f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-26_comp_shadowmask.png using Guid(5dbb562af96fff14f8750df12a4a9f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6f12b84e5a0f77f8bca6d31f9fe8ca') in 0.006282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_disabled.png
+  artifactKey: Guid(bdbd8a3ecf4a241499b36f4c13ded10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_disabled.png using Guid(bdbd8a3ecf4a241499b36f4c13ded10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72c473f958acdfd89cc216f4dc03e31') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PBR_Treasures_pack_2/Textures/생사귀마스크.psd
+  artifactKey: Guid(cac3ca9def3a95140b537532cbb9654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Treasures_pack_2/Textures/생사귀마스크.psd using Guid(cac3ca9def3a95140b537532cbb9654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa64bb1b84e5408bbf540f6896c662a') in 0.006460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-35_comp_dir.png
+  artifactKey: Guid(8b94da80122fada42a72ec8a5550e127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-35_comp_dir.png using Guid(8b94da80122fada42a72ec8a5550e127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2c895ff125ff59dad262637589571f') in 0.005608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/map_3st/지하바닥.psd
+  artifactKey: Guid(5c971e1d74c9ecc418a4461789f2de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/지하바닥.psd using Guid(5c971e1d74c9ecc418a4461789f2de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8684810289085b387499501a9917b7') in 0.006623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mannequins/Models/Male/Mat_unity/Normal/Mannequins_male_SP_Mannequins_male_mat_MetallicSmoothness.png
+  artifactKey: Guid(ada73cd11be540e4e941d39d000c58a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mannequins/Models/Male/Mat_unity/Normal/Mannequins_male_SP_Mannequins_male_mat_MetallicSmoothness.png using Guid(ada73cd11be540e4e941d39d000c58a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6261891e77c2bf6ae909ba5243db170') in 0.012050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/3st_Scene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(ec5ed5aec7596f24cae1f3ab9c8c6795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3st_Scene/Lightmap-1_comp_dir.png using Guid(ec5ed5aec7596f24cae1f3ab9c8c6795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736044dcfcddfb9dee60531933280e9a') in 0.005446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/map_3st/사형장_벽2.psd
+  artifactKey: Guid(9c5915b7017ed2148a6161706a982d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/사형장_벽2.psd using Guid(9c5915b7017ed2148a6161706a982d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac745f38c6ca4ebaa128347785a090e') in 0.006151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/2st_Scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(aab404071a21c554f9dff4e2e02f1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2st_Scene/Lightmap-0_comp_light.exr using Guid(aab404071a21c554f9dff4e2e02f1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058f1ead751d1c5c98bb6e3dd63fa4f2') in 0.007178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Left+X.png
+  artifactKey: Guid(2d6e238331f1a403e881deb3adfc097a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Left+X.png using Guid(2d6e238331f1a403e881deb3adfc097a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aadb0efd0361254d62143635b273d3e') in 0.010862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/map/원통하다.psd
+  artifactKey: Guid(f663f06b6b36d3e418689158ef485761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/원통하다.psd using Guid(f663f06b6b36d3e418689158ef485761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3962210a7d3f0986785120c52104ad0') in 0.005740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/skybox02_openGL.png
+  artifactKey: Guid(07664bb37bf9e46daae750bb6d5ad790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/skybox02_openGL.png using Guid(07664bb37bf9e46daae750bb6d5ad790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e136a3060fe44d8955993ad4b51636') in 0.030930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/StartScene/Textures/Loading.png
+  artifactKey: Guid(2b183318621228543aa9c27a736a1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/StartScene/Textures/Loading.png using Guid(2b183318621228543aa9c27a736a1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c53ac852e8634de9d5c517a1d35f14') in 0.006733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/map_3st/지하계단.psd
+  artifactKey: Guid(cccffdcab79237442b392870841800da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/지하계단.psd using Guid(cccffdcab79237442b392870841800da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ddfa8161aa7dc2b351a7208f6045ac') in 0.006681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Dnk_Dev/RockPack/Textures/T_Rock_03_S.tga
+  artifactKey: Guid(f66e05175ef0f3e4997b259b536a08ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/RockPack/Textures/T_Rock_03_S.tga using Guid(f66e05175ef0f3e4997b259b536a08ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273e16b215248cdf8107473425cbda03') in 0.008925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-39_comp_dir.png
+  artifactKey: Guid(5d48c9be409ec174f9f15e927748d86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-39_comp_dir.png using Guid(5d48c9be409ec174f9f15e927748d86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404edbf7ccd65c159d84f07eeb344780') in 0.004768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/mainmenuscene/버튼넘어가기3.png
+  artifactKey: Guid(34f1195e59d5b7e4f8d4a7e048a8411d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mainmenuscene/버튼넘어가기3.png using Guid(34f1195e59d5b7e4f8d4a7e048a8411d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0ddc248a46941b4a7823f9068c7e48') in 0.033846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/map/newspaper.psd
+  artifactKey: Guid(d055a62ef3e97bc44ac025c5146c26da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/newspaper.psd using Guid(d055a62ef3e97bc44ac025c5146c26da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e7a97cba0600a81473c3d3a638f6c6') in 0.006867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-23_comp_light.exr
+  artifactKey: Guid(cefdcf6cc8a11ac488b02648dba5c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-23_comp_light.exr using Guid(cefdcf6cc8a11ac488b02648dba5c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693820db586ee9dae4e61a4c11c088a0') in 0.008007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/map_3st/사형장_벽.psd
+  artifactKey: Guid(deb6f538f68a22f4a9e8ac7433457984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/사형장_벽.psd using Guid(deb6f538f68a22f4a9e8ac7433457984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a9d83e5ebc173bcf27acee5e9b3874') in 0.009102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ultimate 10 Plus Shaders/Materials/Textures/noise1_normal.png
+  artifactKey: Guid(d2eac888094a652429c634df007d9ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate 10 Plus Shaders/Materials/Textures/noise1_normal.png using Guid(d2eac888094a652429c634df007d9ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d493b808b759d919c4294cbcca2a2fa') in 0.007324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Textures/QuadOverlayText.png
+  artifactKey: Guid(fe0116bd810bd5b438e8737805ce0235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Textures/QuadOverlayText.png using Guid(fe0116bd810bd5b438e8737805ce0235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730fc6a3b779c6f9a3ac1841e78ce2e9') in 0.007268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Mannequins/Models/Male/Mat_unity/Damage/Mannequins_male_SP_Mannequins_male_mat_Normal.png
+  artifactKey: Guid(dd355152ca9288f49892dcc779614544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mannequins/Models/Male/Mat_unity/Damage/Mannequins_male_SP_Mannequins_male_mat_Normal.png using Guid(dd355152ca9288f49892dcc779614544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e46572b8d3af554b0febe6925feb3da') in 0.008817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/map/창문뒤암호.psd
+  artifactKey: Guid(d843d65acc4600a4a955675490a4dac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/창문뒤암호.psd using Guid(d843d65acc4600a4a955675490a4dac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf32d31a2e962cedc9c619923afe9d7') in 0.005517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-21_comp_dir.png
+  artifactKey: Guid(ad29d3edb7994234badcf80687bd9bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-21_comp_dir.png using Guid(ad29d3edb7994234badcf80687bd9bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f990418fcbd72fa61a5283c66190ecba') in 0.004397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Dnk_Dev/RockPack/Textures/T_Rock_01_N.tga
+  artifactKey: Guid(b816ad54e83a9004d8e84cd7462a5ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/RockPack/Textures/T_Rock_01_N.tga using Guid(b816ad54e83a9004d8e84cd7462a5ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af53caf5c10ac340a8bb58d06eebf23c') in 0.007312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_02_nml.png
+  artifactKey: Guid(8feb88af7c75e408b9e3ec8f310583ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_02_nml.png using Guid(8feb88af7c75e408b9e3ec8f310583ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d25c24389d7052383cacdff3a43941') in 0.006444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Materials/Textures/R_controller_DIF.TGA
+  artifactKey: Guid(19fc42fe258be4f4fad36df2d831d6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Materials/Textures/R_controller_DIF.TGA using Guid(19fc42fe258be4f4fad36df2d831d6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b578cd9885ff8413b1873736fa613dab') in 0.537462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-37_comp_light.exr
+  artifactKey: Guid(0637d88f2a3e67b4c81bc5f9465383fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-37_comp_light.exr using Guid(0637d88f2a3e67b4c81bc5f9465383fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2fffaca535cc64e4bb8a48c191ec98') in 0.004162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mannequins/Models/Male/Mat_unity/Damage/Mannequins_male_SP_Mannequins_male_mat_AlbedoTransparency.png
+  artifactKey: Guid(c57f2bcfcf4847c498a794b5c32bec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mannequins/Models/Male/Mat_unity/Damage/Mannequins_male_SP_Mannequins_male_mat_AlbedoTransparency.png using Guid(c57f2bcfcf4847c498a794b5c32bec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5d6de19c755b8ad2bb18176b3872f1') in 0.007034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/1st_Scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(5cf2019c7f7178e4a83c43b235543ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1st_Scene/Lightmap-0_comp_light.exr using Guid(5cf2019c7f7178e4a83c43b235543ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b3701cad3adc30a0e8a74f3fcb40aa') in 0.005580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/map_3st/지하통로바닥.psd
+  artifactKey: Guid(cb2c16a4cc37e9c42be3921ae780bfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/지하통로바닥.psd using Guid(cb2c16a4cc37e9c42be3921ae780bfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39b56dd4e0218e342a7b6a2507c5c9d') in 0.006644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/map_3st/조작법1.png
+  artifactKey: Guid(0f73d2bd998951e43937b190bf234063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/조작법1.png using Guid(0f73d2bd998951e43937b190bf234063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e13cfc7ea282492395aa94fbfdfecd0') in 0.005845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Triple_Resource/Character/Korean Male/Textures/수감자번호_psd.psd
+  artifactKey: Guid(b92fdd26b88b2d04292a710832444e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple_Resource/Character/Korean Male/Textures/수감자번호_psd.psd using Guid(b92fdd26b88b2d04292a710832444e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465f540cf69ebcf309f01c1642be58f6') in 0.006087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mannequins/Models/Male/Mat_unity/Normal/Mannequins_male_SP_Mannequins_male_mat_AlbedoTransparency.png
+  artifactKey: Guid(48d64bd45c8e63b4797a0abadb4c9a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mannequins/Models/Male/Mat_unity/Normal/Mannequins_male_SP_Mannequins_male_mat_AlbedoTransparency.png using Guid(48d64bd45c8e63b4797a0abadb4c9a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36e046fda50677624f3230f0fe1dfe2') in 0.006458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/map_3st/사형장_벽3.psd
+  artifactKey: Guid(b0cd7055d1854af489a8fc1ece9f30b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/사형장_벽3.psd using Guid(b0cd7055d1854af489a8fc1ece9f30b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e22818cd0f4e8360938f8f4736d4fd') in 0.007402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Back-Z.png
+  artifactKey: Guid(c3a31c33995374cb6a46e7a0fa5113cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Back-Z.png using Guid(c3a31c33995374cb6a46e7a0fa5113cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a02187b2bd2d208e0abc48f23646269') in 0.007390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Dnk_Dev/RockPack/Textures/T_Rock_02_N.tga
+  artifactKey: Guid(572cccc29a9d5c048b1bb0e77004330e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/RockPack/Textures/T_Rock_02_N.tga using Guid(572cccc29a9d5c048b1bb0e77004330e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4941ecee44a6281df36f3229e78e4b') in 0.007012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/map_3st/지하문2.psd
+  artifactKey: Guid(3adff9d04b2ec0448a38ef5fe6a8a3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/지하문2.psd using Guid(3adff9d04b2ec0448a38ef5fe6a8a3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21de3288feba7029cf57996d99d3a8c6') in 0.008334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ultimate 10 Plus Shaders/Materials/Textures/noise2.png
+  artifactKey: Guid(fccc6818be225674382d96933708d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate 10 Plus Shaders/Materials/Textures/noise2.png using Guid(fccc6818be225674382d96933708d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b14b8d948d6b70805ae3b68abdc8993') in 0.006292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_bar.png
+  artifactKey: Guid(71df6d228f4ab4245b9791d80663baa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_bar.png using Guid(71df6d228f4ab4245b9791d80663baa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f95535baf7d0326f80a61696dc3167') in 0.012690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/map_3st/짚모자.psd
+  artifactKey: Guid(6a2b2af50b110a244a0053bf812ec28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/짚모자.psd using Guid(6a2b2af50b110a244a0053bf812ec28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed488ee11f36594181ba86345991a4f') in 0.006114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-34_comp_light.exr
+  artifactKey: Guid(1f49a33c8089cc44f85b49e29f45bfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-34_comp_light.exr using Guid(1f49a33c8089cc44f85b49e29f45bfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5738c864c16a8106516a354928d21144') in 0.004268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_NRM.tga
+  artifactKey: Guid(e2d7f58dd4c84431b994602bf58090de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_NRM.tga using Guid(e2d7f58dd4c84431b994602bf58090de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d8852ca188b3bb04d46380200ed79d') in 0.011569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/map/tutorialmap/TexturesCom_BrickSmallBrown0031_1_seamless_S.jpg
+  artifactKey: Guid(f15334fc385e18f4699101ab6a2573f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tutorialmap/TexturesCom_BrickSmallBrown0031_1_seamless_S.jpg using Guid(f15334fc385e18f4699101ab6a2573f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf11518c33004eb05c3b0afeba44d1b7') in 0.008093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/map_3st/천장.psd
+  artifactKey: Guid(98dbf86d4c9356e478a805b2bdee7d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/천장.psd using Guid(98dbf86d4c9356e478a805b2bdee7d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a28c6b6436daf450c87ce59791d59e') in 0.006304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Triple_Resource/Character/Korean Male/Scenes/Korean Male Animation Demo 1_Profiles/Sky.png
+  artifactKey: Guid(3829aee6d116b2b409c4b2891a88a62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple_Resource/Character/Korean Male/Scenes/Korean Male Animation Demo 1_Profiles/Sky.png using Guid(3829aee6d116b2b409c4b2891a88a62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3530dd92478a72f454739e78efa93dca') in 0.019884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Triple_Resource/Character/Korean Male/Rick/TexturesCom_DamagedRubber_0.5x0.5_1K_albedo.tif
+  artifactKey: Guid(a6f74f9728d86284a855dd3555fbad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple_Resource/Character/Korean Male/Rick/TexturesCom_DamagedRubber_0.5x0.5_1K_albedo.tif using Guid(a6f74f9728d86284a855dd3555fbad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c450577335dc3f17ce490b0337fd373') in 0.041728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scenes/3st_Scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(31a14d247a4f8a0439d41a59c60cbf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3st_Scene/Lightmap-0_comp_light.exr using Guid(31a14d247a4f8a0439d41a59c60cbf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbd260ae5ede4d280fd3953e1aae0b4') in 0.006362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/map_3st/사형장바닥2.psd
+  artifactKey: Guid(fce2e59d419afe04b9fab74920166571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/사형장바닥2.psd using Guid(fce2e59d419afe04b9fab74920166571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060bae5d11d39972573d4dc8949982ec') in 0.007745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Back-Z.png
+  artifactKey: Guid(8b58367729b254961afbbcd8ad1fd092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Back-Z.png using Guid(8b58367729b254961afbbcd8ad1fd092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd102dfda69de4f5c23e90401f0f17c3c') in 0.009282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-30_comp_dir.png
+  artifactKey: Guid(44652a245e2bac243a38762376eff290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-30_comp_dir.png using Guid(44652a245e2bac243a38762376eff290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9915b3c0be8fdb993eae33d00a81ea') in 0.004738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/map_3st/지하문.psd
+  artifactKey: Guid(b2e19cb2b76643f47ba7fe32fc04e358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_3st/지하문.psd using Guid(b2e19cb2b76643f47ba7fe32fc04e358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eeb5cf4950c19bb076cdbf133b72640') in 0.006143 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000738 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x287fc7000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 6 plugins.
+Plugins: Couldn't open /Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): tried: '/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e'))
+Preloading 1 native plugins for Editor in 0.62 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (580ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (197ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.30 ms, found 6 plugins.
+Plugins: Couldn't open /Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): tried: '/Users/minjisu/Documents/GitHub/Re_Welcome/Project_Welcome/unity_sudemon/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e'))
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 2432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (478.8 KB). Loaded Objects now: 3033.
+Memory consumption went from 381.3 MB to 380.8 MB.
+Total: 3.532834 ms (FindLiveObjects: 0.154834 ms CreateObjectMapping: 0.047416 ms MarkObjects: 3.072708 ms  DeleteObjects: 0.257292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 144.210080 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(5ba30efcef5895f40b15ef52e4007d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(5ba30efcef5895f40b15ef52e4007d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd4c65c316d04dcae85d8e8035fb1ab') in 0.030129 seconds 
