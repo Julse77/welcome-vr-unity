@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-public class Videoplay : MonoBehaviour
+public class PlayVideo : MonoBehaviour
 {
     public GameObject myVideo;
     public VideoPlayer videoClip;
