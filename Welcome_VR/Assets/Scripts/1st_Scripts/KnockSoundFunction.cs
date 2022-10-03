@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Audio : MonoBehaviour
+public class KnockSoundFunction : MonoBehaviour
 {
     public GameObject room3Audio;
     public GameObject dust;
@@ -20,6 +20,7 @@ public class Audio : MonoBehaviour
     public GameObject dust13;
     public GameObject dust14;
     public GameObject dust15;
+
     private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Player")
@@ -30,6 +31,7 @@ public class Audio : MonoBehaviour
         }
 
     }
+
     private void OnTriggerExit(Collider other)
     {
         room3Audio.SetActive(false);
@@ -49,6 +51,7 @@ public class Audio : MonoBehaviour
         dust14.SetActive(false);
         dust15.SetActive(false);
     }
+
     private void CreateDust()
     {
         dust.SetActive(true);
