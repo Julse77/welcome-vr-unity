@@ -19,9 +19,15 @@ MonoBehaviour:
     width: 2165
     height: 1387
   m_ShowMode: 4
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
   m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
+=======
+  m_Title: 
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -43,12 +49,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     width: 2165
     height: 1337
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
   controlID: 510
+=======
+    width: 1904
+    height: 931
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 304
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,6 +79,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     x: 1652
     y: 0
     width: 513
@@ -73,6 +89,17 @@ MonoBehaviour:
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
+=======
+    x: 1518
+    y: 0
+    width: 386
+    height: 931
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -92,6 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     width: 406.5
     height: 792.5
   m_MinSize: {x: 201, y: 221}
@@ -99,6 +127,15 @@ MonoBehaviour:
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
+=======
+    width: 376
+    height: 563
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -111,12 +148,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
   m_Name: ProjectBrowser
+=======
+  m_Name: 
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     y: 792.5
     width: 1652
     height: 544.5
@@ -128,6 +170,19 @@ MonoBehaviour:
   - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
+=======
+    y: 563
+    width: 1518
+    height: 368
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,6 +203,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     width: 2165
     height: 1387
   m_MinSize: {x: 875, y: 300}
@@ -156,6 +212,12 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
+=======
+    width: 1904
+    height: 981
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,12 +280,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     width: 1652
     height: 1337
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
   controlID: 511
+=======
+    width: 1518
+    height: 931
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 216
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,12 +314,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     width: 1652
     height: 792.5
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 512
+=======
+    width: 1518
+    height: 563
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 311
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,6 +344,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     x: 406.5
     y: 0
     width: 1245.5
@@ -274,6 +355,19 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
+=======
+    x: 376
+    y: 0
+    width: 1142
+    height: 563
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 12}
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
@@ -285,6 +379,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
+=======
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -297,10 +420,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     x: -2165
     y: 875.5
     width: 1651
     height: 523.5
+=======
+    x: 8
+    y: 644
+    width: 1517
+    height: 347
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -318,12 +448,17 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     - Assets/Padlock System/Scripts/Managers - One Per Scene
     m_Globs: []
     m_OriginalText: 
+=======
+    - Assets/3st_Script
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_ViewMode: 1
-  m_StartGridSize: 16
+  m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
   - Assets/Padlock System/Scripts/Managers - One Per Scene
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/johan/Desktop/github_Projects/Welcome_Graduation-products/Welcome_VR
@@ -334,6 +469,18 @@ MonoBehaviour:
     m_SelectedIDs: 4ace0000
     m_LastClickedID: 52810
     m_ExpandedIDs: 000000008a6300008c6300008e63000090630000926300009463000096630000986300009a6300009c6300009e630000a0630000a2630000a46300008a64000092640000966400003cce000000ca9a3bffffff7f
+=======
+  - Assets/3st_Script
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\user\Desktop\git practice\Project_Welcome\unity_sudemon
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 159}
+    m_SelectedIDs: d0570000
+    m_LastClickedID: 22480
+    m_ExpandedIDs: 000000001a5700001c5700001e57000020570000225700002457000026570000285700002a5700002c5700002e57000030570000325700003457000036570000385700003a5700003c5700003e5700004057000042570000445700004657000000ca9a3b
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +508,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     m_ExpandedIDs: 000000008a6300008c6300008e63000090630000926300009463000096630000986300009a6300009c6300009e630000a0630000a2630000a463000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 000000001a5700001c5700001e57000020570000225700002457000026570000285700002a5700002c5700002e57000030570000325700003457000036570000385700003a5700003c5700003e5700004057000042570000445700004657000000ca9a3b
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -405,7 +556,11 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 0
       m_IsRenamingFilename: 1
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
       m_ClientGUIView: {fileID: 5}
+=======
+      m_ClientGUIView: {fileID: 0}
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -414,10 +569,17 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &13
+=======
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &14
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -433,11 +595,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     x: -513
     y: 83
     width: 512
@@ -448,10 +615,23 @@ MonoBehaviour:
     m_SaveData: []
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
+=======
+    x: 1526
+    y: 81
+    width: 385
+    height: 910
+  m_ViewDataDictionary: {fileID: 0}
+  m_OpenAddComponentMenu: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_PreviewResizer:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
@@ -460,6 +640,12 @@ MonoBehaviour:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &14
+=======
+  m_PreviewWindow: {fileID: 0}
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+--- !u!114 &15
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -475,11 +661,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     x: -2165
     y: 83
     width: 405.5
@@ -494,6 +685,19 @@ MonoBehaviour:
       m_SelectedIDs: 4666ffff
       m_LastClickedID: -39354
       m_ExpandedIDs: de55ffff4066ffff4e66ffff0068ffff166bffff266effff6671ffff7674ffffa477ffffb47affffc07dffffe689ffffd4a8ffffdaa8ffff60a9ffff76c9ffffecd5ffff12f6ffff42fbffff2e690000c6800000009a00001a9a00002e9a0000449a0000d2cb0000
+=======
+    x: 8
+    y: 81
+    width: 375
+    height: 542
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 3a330000
+      m_LastClickedID: 0
+      m_ExpandedIDs: f012fffff232ffff6853ffff5a72ffff4c91ffff42b0ffff6ccfffff347100004471000012940000229400007299000082990000
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -516,8 +720,13 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
   m_WindowGUID: 4c969a2b90040154d917609493e03593
 --- !u!114 &15
+=======
+  m_WindowGUID: 73e6e0016949d854c995c593042c96e9
+--- !u!114 &16
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -538,6 +747,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     x: -1758.5
     y: 83
     width: 1243.5
@@ -734,6 +944,15 @@ MonoBehaviour:
       index: 10
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+=======
+    x: 384
+    y: 81
+    width: 1140
+    height: 542
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 020f6d2822883a34baf3a9e243efb5fc
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
@@ -743,9 +962,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: -0.00000047683716, y: 0.000000059604645, z: 0.0000019073486}
+=======
+    m_Target: {x: -0.5994792, y: 0.54820204, z: -1.7645085}
+    speed: 2
+    m_Value: {x: -0.5994792, y: 0.54820204, z: -1.7645085}
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -792,6 +1017,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     m_Target: {x: 0.14555083, y: 0.6153047, z: -0.11694271, w: 0.7658732}
     speed: 2
     m_Value: {x: 0.14554922, y: 0.6152979, z: -0.116941415, w: 0.76586473}
@@ -799,6 +1025,15 @@ MonoBehaviour:
     m_Target: 10
     speed: 2
     m_Value: 9.999999
+=======
+    m_Target: {x: -0.1947757, y: -0.796448, z: 0.3332737, w: -0.4654694}
+    speed: 2
+    m_Value: {x: -0.1947757, y: -0.796448, z: 0.3332737, w: -0.4654694}
+  m_Size:
+    m_Target: 0.30739504
+    speed: 2
+    m_Value: 0.60739505
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -823,7 +1058,11 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
 --- !u!114 &16
+=======
+--- !u!114 &17
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -839,11 +1078,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     x: -1758.5
     y: 83
     width: 1243.5
@@ -854,29 +1098,59 @@ MonoBehaviour:
     m_SaveData: []
   m_SerializedViewNames: []
   m_SerializedViewValues: []
+=======
+    x: 507
+    y: 94
+    width: 1532
+    height: 790
+  m_ViewDataDictionary: {fileID: 0}
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_SerializedCustomFieldsNames: []
+  m_SerializedCustomFieldsValues: []
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
   m_TargetSize: {x: 3840, y: 2160}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
+=======
+  m_TargetSize: {x: 1532, y: 769}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 0
+  m_MaximizeOnPlay: 0
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
   m_SelectedSizes: 00000000000000000000000012000000000000000000000000000000000000000000000000000000
+=======
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     m_HBaseRangeMin: -960
     m_HBaseRangeMax: 960
     m_VBaseRangeMin: -540
     m_VBaseRangeMax: 540
+=======
+    m_HBaseRangeMin: -766
+    m_HBaseRangeMax: 766
+    m_VBaseRangeMin: -384.5
+    m_VBaseRangeMax: 384.5
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -894,16 +1168,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
       width: 1243.5
       height: 750.5
     m_Scale: {x: 0.64765626, y: 0.64765626}
     m_Translation: {x: 621.75, y: 375.25}
+=======
+      width: 1532
+      height: 769
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 766, y: 384.5}
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
       x: -960
       y: -579.39685
       width: 1920
@@ -911,12 +1193,25 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.64765626
   m_LastWindowPixelSize: {x: 2487, y: 1543}
+=======
+      x: -766
+      y: -384.5
+      width: 1532
+      height: 769
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1532, y: 790}
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
 --- !u!114 &17
+=======
+--- !u!114 &18
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -932,11 +1227,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD:Welcome_VR/UserSettings/Layouts/default-2021.dwlt
     x: -2165
     y: 875.5
     width: 1651
@@ -945,3 +1245,10 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+=======
+    x: 8
+    y: 718
+    width: 1366
+    height: 308
+  m_ViewDataDictionary: {fileID: 0}
+>>>>>>> parent of eaa5f852 (2021-11-05 01:48):unity_sudemon/Library/CurrentLayout-default.dwlt

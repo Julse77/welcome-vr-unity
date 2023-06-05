@@ -6,7 +6,6 @@ public class stage3_openSecondDoor3 : MonoBehaviour
 {
     private Animator anim;
     public GameObject openSound;
-    public GameObject longStick;
 
     void Start()
     {
@@ -19,7 +18,6 @@ public class stage3_openSecondDoor3 : MonoBehaviour
         {
             anim.Play("3st_openSecondDoor3", 0, 0.0f);
             openSound.SetActive(true);
-            longStick.SetActive(false);
         }
     }
 

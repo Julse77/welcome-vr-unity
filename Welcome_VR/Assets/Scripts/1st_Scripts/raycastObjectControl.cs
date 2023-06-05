@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +9,8 @@ public class raycastObjectControl : MonoBehaviour
     public float RayDistance = 50f;
     public float RayDistance2 = 50f;
     private string windowTag = "windowOpen_1st";
-    private string LastDoorTag = "LastDoorOpen";
+    private string box1Tag = "box1Open_1st";
+    private string box2Tag = "box1Open_2st";
 
     private windowOpen_1st PlayAnimation;
 
@@ -32,18 +33,22 @@ public class raycastObjectControl : MonoBehaviour
         }
 
         // 컨트롤러 A 버튼 누를 시
-        if (OVRInput.Get(OVRInput.Button.One))
-        {
-            // ray 발사
-            if (Physics.Raycast(transform.position, transform.forward, out hit, RayDistance2))
-            {
-                // ray가 tag에 닿았을 때, 애니메이션 On
-                if (hit.collider.CompareTag(LastDoorTag))
-                {
-                    GameObject.Find("LastDoor1").GetComponent<stage3_openLastDoor1>().PlayAnimation();
-                    GameObject.Find("LastDoor2").GetComponent<stage3_openLastDoor2>().PlayAnimation();
-                }
-            }
-        }
+        // if (OVRInput.Get(OVRInput.Button.One))
+        // {
+        //     // ray 발사
+        //     if (Physics.Raycast(transform.position, transform.forward, out hit, RayDistance2))
+        //     {
+        //         // ray가 tag에 닿았을 때, 애니메이션 On
+        //         if (hit.collider.CompareTag(box1Tag))
+        //         {
+        //             GameObject.Find("boxLid1").GetComponent<openBox_1st>().PlayAnimation();
+        //         }
+
+        //         if (hit.collider.CompareTag(box2Tag))
+        //         {
+        //             GameObject.Find("boxLid2").GetComponent<openBox2_1st>().PlayAnimation();
+        //         }
+        //     }
+        // }
     }
 }

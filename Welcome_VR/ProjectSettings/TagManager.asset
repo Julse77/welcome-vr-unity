@@ -34,8 +34,6 @@ TagManager:
   - Taegeukgi4_1
   - lever
   - movelever
-  - LastDoorOpen
-  - LastDoorOpen1
   layers:
   - Default
   - TransparentFX
