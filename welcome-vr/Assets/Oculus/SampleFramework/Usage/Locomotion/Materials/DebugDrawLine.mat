@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: DebugDrawLine
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHABLEND_ON
   - _EMISSION
@@ -20,6 +22,7 @@ Material:
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses: []
+  m_LockedProperties: _Metallic _MetallicGlossMap
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -66,9 +69,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.1
     - _Mode: 2
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -79,5 +82,5 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 0.8254717, g: 0.99154717, b: 1, a: 1}
-    - _EmissionColor: {r: 0.44610497, g: 0.40396938, b: 0.9622642, a: 1}
+    - _EmissionColor: {r: 0.32550475, g: 0.2688679, b: 1, a: 1}
   m_BuildTextureStacks: []
