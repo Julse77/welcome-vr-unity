@@ -6,11 +6,12 @@ public class windowOpen_1st : MonoBehaviour
 {
     private Animator anim;
     public GameObject room2WindowAudio;
-    // Start is called before the first frame update
+
     void Start()
     {
         anim = GetComponent<Animator>();
     }
+
     public void PlayAnimation()
     {
         if (null != anim)

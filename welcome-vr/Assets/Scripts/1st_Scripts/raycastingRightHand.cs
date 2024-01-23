@@ -9,13 +9,8 @@ public class raycastingRightHand : MonoBehaviour
     public GameObject particle2;
 
     public GameObject paetongbutton;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+
     void Update()
     {
         reticle();
@@ -44,6 +39,7 @@ public class raycastingRightHand : MonoBehaviour
                 paetongbutton.SetActive(false);
             }
         }
+
         Debug.DrawRay(RightH.transform.position, forward, Color.blue);
     }
 }

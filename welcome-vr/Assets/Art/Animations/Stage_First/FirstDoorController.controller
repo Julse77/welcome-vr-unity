@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1102 &-563965972109173448
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -28,7 +28,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1107 &-529672163365144807
 AnimatorStateMachine:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -36,11 +36,11 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 8500544565648417070}
-    m_Position: {x: 330, y: -160, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: -563965972109173448}
-    m_Position: {x: 290, y: -230, z: 0}
+    m_Position: {x: 340, y: -230, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 5521652769644787366}
+    m_Position: {x: 330, y: -160, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -53,7 +53,7 @@ AnimatorStateMachine:
   m_DefaultState: {fileID: -563965972109173448}
 --- !u!1102 &-389539773229987171
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -84,7 +84,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 1st_openFirstDoor
+  m_Name: FirstDoorController
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: disablePadlockCam
@@ -131,14 +131,14 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1102 &8500544565648417070
+--- !u!1102 &5521652769644787366
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 1st_openFirstDoor
+  m_Name: OpenFirstDoor
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []

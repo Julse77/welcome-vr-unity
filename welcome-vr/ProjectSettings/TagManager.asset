@@ -34,6 +34,10 @@ TagManager:
   - Taegeukgi4_1
   - lever
   - movelever
+  - Stage_First_Door_1
+  - Stage_First_Door_2
+  - Stage_First_Door_3
+  - Stage_First_Door_0
   layers:
   - Default
   - TransparentFX
