@@ -38,6 +38,22 @@ TagManager:
   - Stage_First_Door_2
   - Stage_First_Door_3
   - Stage_First_Door_0
+  - FirstRow1
+  - FirstRow2
+  - FirstRow3
+  - FirstRow4
+  - SecondRow1
+  - SecondRow2
+  - SecondRow3
+  - SecondRow4
+  - ThirdRow1
+  - ThirdRow2
+  - ThirdRow3
+  - ThirdRow4
+  - LastRow1
+  - LastRow2
+  - LastRow3
+  - LastRow4
   layers:
   - Default
   - TransparentFX
