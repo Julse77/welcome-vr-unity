@@ -25,7 +25,7 @@ public class ControlObjectAnimation : MonoBehaviour
             {
                 if (rayHit.collider.CompareTag(windowTag))
                 {
-                    RightWindow.GetComponent<windowOpen_1st>().PlayAnimation();
+                    RightWindow.GetComponent<OpenWindow>().PlayAnimation();
                 }
 
                 if (rayHit.collider.CompareTag(secondRoomDoorTag))

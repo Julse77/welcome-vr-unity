@@ -17,7 +17,7 @@ public class nailPaetongInt_1st : MonoBehaviour
     void OpenPaetong()
     {
         // paetong_in 이름의 GameObject의 컴포넌트 conPaetong_1st의 PlayAnimation 함수 실행
-        GameObject.Find("paetong_in").GetComponent<conPaetong_1st>().PlayAnimation();
+        GameObject.Find("paetong_in").GetComponent<ControlPaetong>().PlayAnimation();
     }
 
 }
