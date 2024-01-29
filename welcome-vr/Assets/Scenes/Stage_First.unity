@@ -34198,7 +34198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &411060902
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61742,27 +61742,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1703264246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &732498363
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132149170192732}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.00021901136, y: 0.0051033073, z: 0.012026778}
-  m_Center: {x: -0.0000000047685, y: 0.0031952632, z: -4.1925838e-10}
 --- !u!95 &732498365
 Animator:
   serializedVersion: 5
@@ -67150,7 +67129,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -67165,11 +67144,11 @@ Transform:
   m_GameObject: {fileID: 1114831812}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 9.78, y: 1.58, z: 19.693}
-  m_LocalScale: {x: 0.084074, y: 2.9802, z: 2.7124}
+  m_LocalPosition: {x: -18.353207, y: 4.6004777, z: -7.7114334}
+  m_LocalScale: {x: 0.084074, y: 2.9801998, z: 2.7123997}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1178507231}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1114831815
 MonoBehaviour:
@@ -67183,7 +67162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 870212a430c51554fb991567b7ce8f79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myeongbu: {fileID: 0}
+  myeongbu: {fileID: 8547271645790056892}
 --- !u!1001 &1117691381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72440,6 +72419,7 @@ Transform:
   - {fileID: 411060905}
   - {fileID: 1823424020}
   - {fileID: 7737841495295051649}
+  - {fileID: 1114831814}
   - {fileID: 543450651689776657}
   - {fileID: 543450653693713382}
   - {fileID: 256833396}
@@ -87668,7 +87648,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1823424017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -99191,6 +99171,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3469287837475607621}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3451118302881654770}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &114035734617876236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100481,9 +100485,9 @@ GameObject:
   - component: {fileID: 543450653693713382}
   - component: {fileID: 3469287837475607619}
   - component: {fileID: 1711813855627305097}
-  - component: {fileID: 732498363}
   - component: {fileID: 732498365}
   - component: {fileID: 3469287837475607620}
+  - component: {fileID: 3469287837475607621}
   m_Layer: 0
   m_Name: ExitDoor
   m_TagString: Stage_First_Door_3
@@ -102569,6 +102573,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OpenDoorSound: {fileID: 583807987}
+--- !u!64 &3469287837475607621
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149170192732}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7506242789603048782, guid: ca8747aad2548ac4589d7156eafea6d6, type: 3}
 --- !u!33 &3469287837619419572
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -105609,7 +105635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8564066110050271806
 Transform:
   m_ObjectHideFlags: 0
@@ -105995,7 +106021,6 @@ SceneRoots:
   - {fileID: 339334308}
   - {fileID: 1842630787}
   - {fileID: 1883948857}
-  - {fileID: 1114831814}
   - {fileID: 1703264246}
   - {fileID: 2048530417}
   - {fileID: 516743202}

@@ -11,13 +11,13 @@ public class Scenechange1 : MonoBehaviour
         if (other.tag == "PlayerHand")
         {
             image1.SetActive(true);
-            Invoke("Scene2", 5f);
+            Invoke("RunNextScene", 5f);
             
         }
 
     }
-    void Scene2()
+    void RunNextScene()
     {
-        SceneManager.LoadScene("2st_Scene");
+        SceneManager.LoadScene("Stage_Second");
     }
 }
