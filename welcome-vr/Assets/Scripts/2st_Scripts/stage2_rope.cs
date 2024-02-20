@@ -13,14 +13,15 @@ public class stage2_rope : MonoBehaviour
         if (other.tag == "PlayerHand")
         {
             ropesound.SetActive(true);
-            Invoke("dropnail", 1f);
+            Invoke("OnDropNail", 1f);
             
         }
         
     }
-    void dropnail()
+    private void OnDropNail()
     {
         nailsound.SetActive(true);
         nails.SetActive(true);
     }
+
 }

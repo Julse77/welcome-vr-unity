@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage_First.unity
     guid: 9dc42c83751fd4a288a5e56c07ab6c83
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Stage_Second.unity
     guid: 31f7443dd06fbcb4fb5552d32b0b9dfd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Stage_third.unity
     guid: 57f501a0599548c499107655b046f335
   - enabled: 0
